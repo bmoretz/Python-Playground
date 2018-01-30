@@ -22,12 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="IntermediatePython\ch_01_vis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="IntoToPython\ch_01.py" />
     <Compile Include="IntoToPython\ch_02.py" />
+    <Compile Include="IntoToPython\ch_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IntoToPython\ch_04.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonPlayground.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IntoToPython\" />
+    <Folder Include="IntermediatePython\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
