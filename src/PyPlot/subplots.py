@@ -22,3 +22,4 @@ plt.xlabel('time (s)')
 plt.ylabel('Undamped')
 
 plt.show()
+
