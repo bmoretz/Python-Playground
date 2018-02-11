@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>126c6745-9c26-4773-806c-d357149a9e3c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mathematics.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Mathematics.py" />
+    <Compile Include="ch_01\challenge\control_flow.py" />
+    <Compile Include="ch_01\challenge\even_odd_vm.py" />
+    <Compile Include="ch_01\challenge\fraction_calc.py" />
+    <Compile Include="ch_01\challenge\multi_table_ext.py" />
+    <Compile Include="ch_01\challenge\unit_ext.py" />
+    <Compile Include="ch_01\factors.py" />
+    <Compile Include="ch_01\multi_table.py" />
+    <Compile Include="ch_01\quadratic.py" />
+    <Compile Include="ch_01\units.py" />
+    <Compile Include="ch_01\unit_converter.py" />
+    <Compile Include="ch_01\_scratch.py" />
+    <Compile Include="ch_02\challenge\temp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_02\gravity.py" />
+    <Compile Include="ch_02\motion.py" />
+    <Compile Include="ch_02\_scratch.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ch_01\" />
+    <Folder Include="ch_01\challenge\" />
+    <Folder Include="ch_02\" />
+    <Folder Include="ch_02\challenge\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
