@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyPlot", "PyPlot\PyPlot.pyproj", "{96E3BD41-6E99-4616-AD01-FD50F2AFBC53}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataCamp", "DataCamp\DataCamp.pyproj", "{64B7EDD1-0E2C-4383-84E4-0D81FC5EEAE4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mathematics", "Mathematics\Mathematics.pyproj", "{126C6745-9C26-4773-806C-D357149A9E3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,8 @@ Global
 		{96E3BD41-6E99-4616-AD01-FD50F2AFBC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B7EDD1-0E2C-4383-84E4-0D81FC5EEAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64B7EDD1-0E2C-4383-84E4-0D81FC5EEAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126C6745-9C26-4773-806C-D357149A9E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126C6745-9C26-4773-806C-D357149A9E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
