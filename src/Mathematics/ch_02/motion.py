@@ -61,4 +61,3 @@ for u in u_list:
 
 plt.legend( [ '20', '40', '60' ] )
 plt.show()
-

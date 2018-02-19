@@ -179,6 +179,7 @@ print("Correlation: " + str(corr))
 
 # heights and positions are available as lists
 
+
 # Import numpy
 import numpy as np
 
