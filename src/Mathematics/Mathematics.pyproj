@@ -33,18 +33,65 @@
     <Compile Include="ch_01\units.py" />
     <Compile Include="ch_01\unit_converter.py" />
     <Compile Include="ch_01\_scratch.py" />
+    <Compile Include="ch_02\challenge\expenses.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_02\challenge\fib_golden.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_02\challenge\quadratic.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ch_02\challenge\temp.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ch_02\gravity.py" />
     <Compile Include="ch_02\motion.py" />
     <Compile Include="ch_02\_scratch.py" />
+    <Compile Include="ch_03\challenge\Anscombe%27s Quartet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\challenge\better_corel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\challenge\percentile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\correlation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\correl_dbg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\data\scores.txt">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\dispersion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\file_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\measures_of_center.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_03\_scratch.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ch_01\" />
     <Folder Include="ch_01\challenge\" />
     <Folder Include="ch_02\" />
     <Folder Include="ch_02\challenge\" />
+    <Folder Include="ch_03\" />
+    <Folder Include="ch_03\data\" />
+    <Folder Include="ch_03\challenge\" />
+    <Folder Include="Workbooks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ch_03\data\data2.txt" />
+    <Content Include="ch_03\data\mydata.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
