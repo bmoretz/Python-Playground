@@ -1,5 +1,3 @@
-from matplotlib import pyplot as plt
-
 import math
 
 def find_corr_x_y( x, y ):
@@ -8,7 +6,7 @@ def find_corr_x_y( x, y ):
 	z = len( y )
 
 	if n != z:
-		raise ValueError( 'Correlation cannot be evaluated with different length sets ( x:{0} / y:{1} )'.format( n, z ) )
+		raise ValueError( 'Correlation cannot be evaluated with different length sets ( x:len[{0}] / y:len[{1}] )'.format( n, z ) )
 
 	prod = []
 
@@ -45,19 +43,13 @@ def find_corr_x_y( x, y ):
 
 	return correlation
 
-def plot_points( x_vals, y_vals ):
-	plt.plot( x_vals, y_vals )
-	plt.title( 'Ration betwen consecutive Fibonacci numbers' )
-	plt.scatter()
-
 if __name__ == '__main__':
 
-	high_school_grades = [ 90, 92, 95, 96, 87, 87, 90 ,95, 98, 96 ]
-	college_admission_scores = [ 85, 87, 86, 97, 96, 88, 89, 98, 98, 87 ]
+	x = [ 90, 92, 95, 96, 87, 87, 90 ,95, 98 ]
+	y = [ 85, 87, 86, 97, 96, 88, 89, 98, 98, 87 ]
 
-	# plt.scatter( high_school_grades, college_admission_scores )
-	# plt.show()
-	
-	correl = find_corr_x_y( high_school_grades, college_admission_scores )
-
-	print( correl )
+	try:
+		correl = find_corr_x_y( x, y )
+		print( correl )
+	except ValueError as e:
+		print( e )
