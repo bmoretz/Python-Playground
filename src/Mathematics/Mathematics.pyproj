@@ -78,6 +78,42 @@
     <Compile Include="ch_03\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ch_04\challenge\factor_finder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\challenge\graphical_solver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\challenge\inequalities.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\challenge\sum_series.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\evaluator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\expr_prod.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\graphs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\plot_systems.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\simple_series.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\solver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_04\_scratch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_05\_scratch.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ch_01\" />
@@ -87,6 +123,9 @@
     <Folder Include="ch_03\" />
     <Folder Include="ch_03\data\" />
     <Folder Include="ch_03\challenge\" />
+    <Folder Include="ch_04\" />
+    <Folder Include="ch_04\challenge\" />
+    <Folder Include="ch_05\" />
     <Folder Include="Workbooks\" />
   </ItemGroup>
   <ItemGroup>
