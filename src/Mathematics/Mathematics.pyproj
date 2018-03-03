@@ -22,115 +22,111 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ch_01\challenge\control_flow.py" />
-    <Compile Include="ch_01\challenge\even_odd_vm.py" />
-    <Compile Include="ch_01\challenge\fraction_calc.py" />
-    <Compile Include="ch_01\challenge\multi_table_ext.py" />
-    <Compile Include="ch_01\challenge\unit_ext.py" />
-    <Compile Include="ch_01\factors.py" />
-    <Compile Include="ch_01\multi_table.py" />
-    <Compile Include="ch_01\quadratic.py" />
-    <Compile Include="ch_01\units.py" />
-    <Compile Include="ch_01\unit_converter.py" />
-    <Compile Include="ch_01\_scratch.py" />
-    <Compile Include="ch_02\challenge\expenses.py">
+    <Compile Include="Calculus I\Ch_01\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_02\challenge\fib_golden.py">
+    <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
+    <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
+    <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
+    <Compile Include="DoingMathInPython\ch_01\challenge\unit_ext.py" />
+    <Compile Include="DoingMathInPython\ch_01\factors.py" />
+    <Compile Include="DoingMathInPython\ch_01\multi_table.py" />
+    <Compile Include="DoingMathInPython\ch_01\quadratic.py" />
+    <Compile Include="DoingMathInPython\ch_01\units.py" />
+    <Compile Include="DoingMathInPython\ch_01\unit_converter.py" />
+    <Compile Include="DoingMathInPython\ch_01\_scratch.py" />
+    <Compile Include="DoingMathInPython\ch_02\challenge\expenses.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_02\challenge\quadratic.py">
+    <Compile Include="DoingMathInPython\ch_02\challenge\fib_golden.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_02\challenge\temp.py">
+    <Compile Include="DoingMathInPython\ch_02\challenge\quadratic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_02\gravity.py" />
-    <Compile Include="ch_02\motion.py" />
-    <Compile Include="ch_02\_scratch.py" />
-    <Compile Include="ch_03\challenge\Anscombe%27s Quartet.py">
+    <Compile Include="DoingMathInPython\ch_02\challenge\temp.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\challenge\better_corel.py">
+    <Compile Include="DoingMathInPython\ch_02\gravity.py" />
+    <Compile Include="DoingMathInPython\ch_02\motion.py" />
+    <Compile Include="DoingMathInPython\ch_02\_scratch.py" />
+    <Compile Include="DoingMathInPython\ch_03\challenge\better_corel.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\challenge\percentile.py">
+    <Compile Include="DoingMathInPython\ch_03\challenge\percentile.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\correlation.py">
+    <Compile Include="DoingMathInPython\ch_03\correlation.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\correl_dbg.py">
+    <Compile Include="DoingMathInPython\ch_03\correl_dbg.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\data\scores.txt">
+    <Compile Include="DoingMathInPython\ch_03\data\scores.txt">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\dispersion.py">
+    <Compile Include="DoingMathInPython\ch_03\dispersion.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\file_reader.py">
+    <Compile Include="DoingMathInPython\ch_03\file_reader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\measures_of_center.py">
+    <Compile Include="DoingMathInPython\ch_03\measures_of_center.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_03\_scratch.py">
+    <Compile Include="DoingMathInPython\ch_03\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\challenge\factor_finder.py">
+    <Compile Include="DoingMathInPython\ch_04\challenge\graphical_solver.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\challenge\graphical_solver.py">
+    <Compile Include="DoingMathInPython\ch_04\challenge\inequalities.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\challenge\inequalities.py">
+    <Compile Include="DoingMathInPython\ch_04\challenge\sum_series.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\challenge\sum_series.py">
+    <Compile Include="DoingMathInPython\ch_04\evaluator.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\evaluator.py">
+    <Compile Include="DoingMathInPython\ch_04\expr_prod.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\expr_prod.py">
+    <Compile Include="DoingMathInPython\ch_04\graphs.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\graphs.py">
+    <Compile Include="DoingMathInPython\ch_04\plot_systems.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\plot_systems.py">
+    <Compile Include="DoingMathInPython\ch_04\simple_series.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\simple_series.py">
+    <Compile Include="DoingMathInPython\ch_04\solver.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ch_04\solver.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ch_04\_scratch.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ch_05\_scratch.py">
+    <Compile Include="DoingMathInPython\ch_04\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ch_01\" />
-    <Folder Include="ch_01\challenge\" />
-    <Folder Include="ch_02\" />
-    <Folder Include="ch_02\challenge\" />
-    <Folder Include="ch_03\" />
-    <Folder Include="ch_03\data\" />
-    <Folder Include="ch_03\challenge\" />
-    <Folder Include="ch_04\" />
-    <Folder Include="ch_04\challenge\" />
-    <Folder Include="ch_05\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_01\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_01\challenge\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_02\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_02\challenge\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_03\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_03\data\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_03\challenge\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_04\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_04\challenge\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_05\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\" />
+    <Folder Include="Calculus I\" />
+    <Folder Include="Calculus I\Ch_01\" />
     <Folder Include="Workbooks\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ch_03\data\data2.txt" />
-    <Content Include="ch_03\data\mydata.txt" />
+    <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
+    <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
