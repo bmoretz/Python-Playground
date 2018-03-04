@@ -30,7 +30,7 @@ def percentile( p, data ):
 if __name__ == '__main__':
 	cwd = os.getcwd()
 
-	values = read_csv( cwd + '\\ch_03\\data\\scores.txt' )
+	values = read_csv( cwd + '\\DoingMathInPython\\ch_03\\data\\scores.txt' )
 
 	scores = []
 

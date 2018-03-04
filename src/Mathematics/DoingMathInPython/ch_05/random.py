@@ -22,5 +22,3 @@ if __name__ == '__main__':
 		print( 'Rolled: {0}'.format( die_roll ) )
 
 	print( 'Score of {0} reached in {1} rolls.'.format( score, num_rolls ) )
-
-

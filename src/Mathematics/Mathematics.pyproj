@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Calculus I\Ch_01\points.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Calculus I\Ch_01\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
@@ -107,6 +110,31 @@
     <Compile Include="DoingMathInPython\ch_04\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\large_numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\sports.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\vinn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\vinn2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\distribution.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\pendulum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\probability.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\random.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\_scratch.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_01\" />
@@ -122,11 +150,26 @@
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\" />
     <Folder Include="Calculus I\" />
     <Folder Include="Calculus I\Ch_01\" />
+    <Folder Include="DoingMathInPython\" />
+    <Folder Include="DoingMathInPython\ch_01\" />
+    <Folder Include="DoingMathInPython\ch_01\challenge\" />
+    <Folder Include="DoingMathInPython\ch_02\" />
+    <Folder Include="DoingMathInPython\ch_02\challenge\" />
+    <Folder Include="DoingMathInPython\ch_03\" />
+    <Folder Include="DoingMathInPython\ch_03\challenge\" />
+    <Folder Include="DoingMathInPython\ch_03\data\" />
+    <Folder Include="DoingMathInPython\ch_04\" />
+    <Folder Include="DoingMathInPython\ch_04\challenge\" />
+    <Folder Include="DoingMathInPython\ch_05\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_05\challenge\" />
+    <Folder Include="DoingMathInPython\ch_05\challenge\" />
+    <Folder Include="DoingMathInPython\ch_05\data\" />
     <Folder Include="Workbooks\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
+    <Content Include="DoingMathInPython\ch_05\data\football.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

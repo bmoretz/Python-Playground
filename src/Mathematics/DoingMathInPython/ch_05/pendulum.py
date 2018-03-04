@@ -18,4 +18,4 @@ def display_table( l_values, g_values ):
 	
 		print( '{0:^15}{1:^15}{2:^15}'.format( float( l ), float( g ), float( t ) ) )
 
-display_table( L, G )`
+display_table( L, G )
