@@ -110,6 +110,12 @@
     <Compile Include="DoingMathInPython\ch_04\_scratch.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\circle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_05\challenge\deck_shuffling.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_05\challenge\large_numbers.py">
       <SubType>Code</SubType>
     </Compile>
@@ -135,6 +141,39 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_05\_scratch.py" />
+    <Compile Include="DoingMathInPython\ch_06\barnsly_fern.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\challenge\circles.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\challenge\henon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\challenge\grey_scale.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\challenge\mandlebrot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\challenge\sierpinski.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\charting_rules.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\circle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\growing_circle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\trajectory.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_06\_scratch.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_01\" />
@@ -164,6 +203,8 @@
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\DoingMathInPython\ch_05\challenge\" />
     <Folder Include="DoingMathInPython\ch_05\challenge\" />
     <Folder Include="DoingMathInPython\ch_05\data\" />
+    <Folder Include="DoingMathInPython\ch_06\" />
+    <Folder Include="DoingMathInPython\ch_06\challenge\" />
     <Folder Include="Workbooks\" />
   </ItemGroup>
   <ItemGroup>
