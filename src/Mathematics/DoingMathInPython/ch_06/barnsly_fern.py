@@ -37,6 +37,7 @@ def transformation_4( p ):
 	y = p[ 1 ]
 
 	x1 = 0
+
 	y1 = 0.16*y
 
 	return x1, y1
