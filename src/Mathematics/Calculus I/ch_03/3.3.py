@@ -1,5 +1,5 @@
-import math
-from sympy import Symbol, Limit, Derivative, solve, sympify, S, simplify, lambdify, pprint, init_printing
+from math import sqrt, exp, log, sin
+from sympy import Symbol, Limit, Derivative, solve, sympify, S, simplify, lambdify, pprint, init_printing, symbols
 from fractions import Fraction
 
 init_printing( order = 'rev-lex', use_unicode = True )
@@ -65,7 +65,19 @@ pprint( sln )
 # Suppose f(x) = sqrt( x^2 + 5 ).
 # Find the equation of the line tangent to f(x) at ( -2, 3 ).
 
-Fx = ( x** 2 + 5 ) ** .5
 x = Symbol( 'x', positive = True )
-d = Derivative( Fx, x ).doit()
+Fx = ( x** 2 + 5 ) ** .5
+
+Fx
+
+d = Derivative( Fx, x )
+d
+
+Dx = d.doit()
+Dx
+
 m = solve( d - 2, x )
+m
+
+x,y,m = symbols( 'x, y, m' )
+line = m * ( x + 2 ) - y + 3
