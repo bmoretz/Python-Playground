@@ -24,6 +24,12 @@
     <Compile Include="Calculus I\ch_03\3.1.py" />
     <Compile Include="Calculus I\ch_03\3.2.py" />
     <Compile Include="Calculus I\ch_03\3.3.py" />
+    <Compile Include="Calculus I\ch_04\4.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calculus I\ch_04\4.2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -98,6 +104,7 @@
     <Folder Include="Calculus I\" />
     <Folder Include="Calculus I\Ch_01" />
     <Folder Include="Calculus I\ch_03" />
+    <Folder Include="Calculus I\ch_04\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
