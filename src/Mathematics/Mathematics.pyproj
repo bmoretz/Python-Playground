@@ -92,10 +92,11 @@
     <Compile Include="DoingMathInPython\ch_06\_scratch.py" />
     <Compile Include="DoingMathInPython\ch_07\derivative.py" />
     <Compile Include="DoingMathInPython\ch_07\derivative_calc.py" />
+    <Compile Include="DoingMathInPython\ch_07\extrema_derivative.py" />
+    <Compile Include="DoingMathInPython\ch_07\extrema_gradient_ascent.py" />
     <Compile Include="DoingMathInPython\ch_07\Interest.py" />
     <Compile Include="DoingMathInPython\ch_07\iroc.py" />
     <Compile Include="DoingMathInPython\ch_07\limits.py" />
-    <Compile Include="DoingMathInPython\ch_07\min_max.py" />
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
   </ItemGroup>
   <ItemGroup>

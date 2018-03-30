@@ -1,3 +1,4 @@
+# using higher order derivatives to find extrema values
 
 from sympy import Symbol, solve, Derivative
 
@@ -30,3 +31,4 @@ f.subs( { x: A } ).evalf()
 
 f.subs( { x: x_min } ).evalf()
 f.subs( { x: x_max } ).evalf()
+
