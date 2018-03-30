@@ -95,6 +95,7 @@
     <Compile Include="DoingMathInPython\ch_07\Interest.py" />
     <Compile Include="DoingMathInPython\ch_07\iroc.py" />
     <Compile Include="DoingMathInPython\ch_07\limits.py" />
+    <Compile Include="DoingMathInPython\ch_07\min_max.py" />
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
   </ItemGroup>
   <ItemGroup>
