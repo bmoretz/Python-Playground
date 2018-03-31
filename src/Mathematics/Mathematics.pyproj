@@ -19,7 +19,6 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Calculus I\Ch_01\points.py" />
     <Compile Include="Calculus\Ch_01\_scratch.py" />
     <Compile Include="Calculus I\ch_03\3.1.py" />
     <Compile Include="Calculus I\ch_03\3.2.py" />
@@ -37,6 +36,20 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calculus I\ch_07\box_volume_maxima.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calculus\ch_03\3.1.py" />
+    <Compile Include="Calculus\ch_03\3.2.py" />
+    <Compile Include="Calculus\ch_03\3.3.py" />
+    <Compile Include="Calculus\ch_04\4.1.py" />
+    <Compile Include="Calculus\ch_04\4.2.py" />
+    <Compile Include="Calculus\ch_04\4.3.py" />
+    <Compile Include="Calculus\ch_05\5.1.py" />
+    <Compile Include="Calculus\ch_05\5.2.py" />
+    <Compile Include="Calculus\ch_05\5.3.py" />
+    <Compile Include="Calculus\ch_06\6.2.py" />
+    <Compile Include="Calculus\ch_07\box_volume_maxima.py" />
+    <Compile Include="Calculus\ch_07\wire_cutting.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
@@ -118,6 +131,8 @@
   <ItemGroup>
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\" />
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\Ch_01\" />
+    <Folder Include="Calculus I\" />
+    <Folder Include="Calculus I\Ch_01\" />
     <Folder Include="Calculus I\ch_02\" />
     <Folder Include="Calculus I\ch_03" />
     <Folder Include="Calculus I\ch_04\" />
@@ -125,6 +140,15 @@
     <Folder Include="Calculus I\ch_06\" />
     <Folder Include="Calculus I\ch_08\" />
     <Folder Include="Calculus I\ch_07\" />
+    <Folder Include="Calculus\" />
+    <Folder Include="Calculus\Ch_01\" />
+    <Folder Include="Calculus\ch_02\" />
+    <Folder Include="Calculus\ch_03\" />
+    <Folder Include="Calculus\ch_04\" />
+    <Folder Include="Calculus\ch_05\" />
+    <Folder Include="Calculus\ch_06\" />
+    <Folder Include="Calculus\ch_07\" />
+    <Folder Include="Calculus\ch_08\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
