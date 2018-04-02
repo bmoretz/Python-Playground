@@ -20,24 +20,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Calculus\Ch_01\_scratch.py" />
-    <Compile Include="Calculus I\ch_03\3.1.py" />
-    <Compile Include="Calculus I\ch_03\3.2.py" />
-    <Compile Include="Calculus I\ch_03\3.3.py" />
-    <Compile Include="Calculus I\ch_04\4.1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Calculus I\ch_04\4.2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Calculus I\ch_05\5.1.py" />
-    <Compile Include="Calculus I\ch_05\5.2.py" />
-    <Compile Include="Calculus I\ch_05\5.3.py" />
-    <Compile Include="Calculus I\ch_06\6.1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Calculus I\ch_07\box_volume_maxima.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Calculus\ch_03\3.1.py" />
     <Compile Include="Calculus\ch_03\3.2.py" />
     <Compile Include="Calculus\ch_03\3.3.py" />
@@ -52,6 +34,7 @@
     <Compile Include="Calculus\ch_07\can_volume_maxima.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Calculus\ch_07\wire_cutting_minima.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -109,6 +92,15 @@
     <Compile Include="DoingMathInPython\ch_06\growing_circle.py" />
     <Compile Include="DoingMathInPython\ch_06\trajectory.py" />
     <Compile Include="DoingMathInPython\ch_06\_scratch.py" />
+    <Compile Include="DoingMathInPython\ch_07\challenge\area_under_curve.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_07\challenge\function_continuity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoingMathInPython\ch_07\challenge\gradient_descent.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_07\derivative.py" />
     <Compile Include="DoingMathInPython\ch_07\derivative_calc.py" />
     <Compile Include="DoingMathInPython\ch_07\extrema_derivative.py" />
@@ -116,9 +108,15 @@
     <Compile Include="DoingMathInPython\ch_07\generic_grad_ascent.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DoingMathInPython\ch_07\integrals.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_07\Interest.py" />
     <Compile Include="DoingMathInPython\ch_07\iroc.py" />
     <Compile Include="DoingMathInPython\ch_07\limits.py" />
+    <Compile Include="DoingMathInPython\ch_07\probability_density.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
   </ItemGroup>
   <ItemGroup>
@@ -126,20 +124,12 @@
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
     <Content Include="DoingMathInPython\ch_03\data\scores.txt" />
     <Content Include="DoingMathInPython\ch_05\data\football.txt" />
+    <Content Include="symbols.txt" />
     <Content Include="Workbooks\Working.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\" />
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\Ch_01\" />
-    <Folder Include="Calculus I\" />
-    <Folder Include="Calculus I\Ch_01\" />
-    <Folder Include="Calculus I\ch_02\" />
-    <Folder Include="Calculus I\ch_03" />
-    <Folder Include="Calculus I\ch_04\" />
-    <Folder Include="Calculus I\ch_05\" />
-    <Folder Include="Calculus I\ch_06\" />
-    <Folder Include="Calculus I\ch_08\" />
-    <Folder Include="Calculus I\ch_07\" />
     <Folder Include="Calculus\" />
     <Folder Include="Calculus\Ch_01\" />
     <Folder Include="Calculus\ch_02\" />
@@ -165,6 +155,7 @@
     <Folder Include="DoingMathInPython\ch_06" />
     <Folder Include="DoingMathInPython\ch_06\challenge" />
     <Folder Include="DoingMathInPython\ch_07" />
+    <Folder Include="DoingMathInPython\ch_07\challenge\" />
     <Folder Include="Finance\" />
     <Folder Include="ScientificProgrammingPrimer\" />
     <Folder Include="ScientificProgrammingPrimer\ch_01\" />
