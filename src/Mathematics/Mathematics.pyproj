@@ -35,6 +35,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calculus\ch_07\wire_cutting_minima.py" />
+    <Compile Include="Classes\DS400\point_slope.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -140,6 +141,7 @@
     <Folder Include="Calculus\ch_06\" />
     <Folder Include="Calculus\ch_07\" />
     <Folder Include="Calculus\ch_08\" />
+    <Folder Include="Classes\DS400\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
