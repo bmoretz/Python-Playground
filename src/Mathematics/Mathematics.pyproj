@@ -92,7 +92,8 @@
     <Compile Include="DoingMathInPython\ch_06\growing_circle.py" />
     <Compile Include="DoingMathInPython\ch_06\trajectory.py" />
     <Compile Include="DoingMathInPython\ch_06\_scratch.py" />
-    <Compile Include="DoingMathInPython\ch_07\challenge\area_under_curve.py">
+    <Compile Include="DoingMathInPython\ch_07\challenge\area_between_curves.py" />
+    <Compile Include="DoingMathInPython\ch_07\challenge\curve_lenght.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_07\challenge\function_continuity.py">
@@ -157,6 +158,8 @@
     <Folder Include="DoingMathInPython\ch_07" />
     <Folder Include="DoingMathInPython\ch_07\challenge\" />
     <Folder Include="Finance\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\DS400\" />
+    <Folder Include="Classes\" />
     <Folder Include="ScientificProgrammingPrimer\" />
     <Folder Include="ScientificProgrammingPrimer\ch_01\" />
     <Folder Include="Workbooks\" />
