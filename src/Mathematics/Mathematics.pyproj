@@ -19,22 +19,25 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Calculus\Ch_01\_scratch.py" />
-    <Compile Include="Calculus\ch_03\3.1.py" />
-    <Compile Include="Calculus\ch_03\3.2.py" />
-    <Compile Include="Calculus\ch_03\3.3.py" />
-    <Compile Include="Calculus\ch_04\4.1.py" />
-    <Compile Include="Calculus\ch_04\4.2.py" />
-    <Compile Include="Calculus\ch_04\4.3.py" />
-    <Compile Include="Calculus\ch_05\5.1.py" />
-    <Compile Include="Calculus\ch_05\5.2.py" />
-    <Compile Include="Calculus\ch_05\5.3.py" />
-    <Compile Include="Calculus\ch_06\6.2.py" />
-    <Compile Include="Calculus\ch_07\box_volume_maxima.py" />
-    <Compile Include="Calculus\ch_07\can_volume_maxima.py">
+    <Compile Include="Classes\Calculus\Ch_01\_scratch.py" />
+    <Compile Include="Classes\Calculus\ch_03\3.1.py" />
+    <Compile Include="Classes\Calculus\ch_03\3.2.py" />
+    <Compile Include="Classes\Calculus\ch_03\3.3.py" />
+    <Compile Include="Classes\Calculus\ch_04\4.1.py" />
+    <Compile Include="Classes\Calculus\ch_04\4.2.py" />
+    <Compile Include="Classes\Calculus\ch_04\4.3.py" />
+    <Compile Include="Classes\Calculus\ch_05\5.1.py" />
+    <Compile Include="Classes\Calculus\ch_05\5.2.py" />
+    <Compile Include="Classes\Calculus\ch_05\5.3.py" />
+    <Compile Include="Classes\Calculus\ch_06\6.2.py" />
+    <Compile Include="Classes\Calculus\ch_07\box_volume_maxima.py" />
+    <Compile Include="Classes\Calculus\ch_07\can_volume_maxima.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Calculus\ch_07\wire_cutting_minima.py" />
+    <Compile Include="Classes\Calculus\ch_07\wire_cutting_minima.py" />
+    <Compile Include="Classes\DS400\Module 1\1.1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\point_slope.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
@@ -122,6 +125,11 @@
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Classes\DS400\Module 1\Practice\1.1.ipynb" />
+    <Content Include="Classes\DS400\Module 1\Practice\1.2.ipynb" />
+    <Content Include="Classes\DS400\Module 1\Practice\1.3.ipynb" />
+    <Content Include="Classes\DS400\Module 1\Practice\1.4.ipynb" />
+    <Content Include="Classes\DS400\Module 1\Practice\1.5.ipynb" />
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
     <Content Include="DoingMathInPython\ch_03\data\scores.txt" />
@@ -132,16 +140,18 @@
   <ItemGroup>
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\" />
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Calculus\Ch_01\" />
-    <Folder Include="Calculus\" />
-    <Folder Include="Calculus\Ch_01\" />
-    <Folder Include="Calculus\ch_02\" />
-    <Folder Include="Calculus\ch_03\" />
-    <Folder Include="Calculus\ch_04\" />
-    <Folder Include="Calculus\ch_05\" />
-    <Folder Include="Calculus\ch_06\" />
-    <Folder Include="Calculus\ch_07\" />
-    <Folder Include="Calculus\ch_08\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\Ch_01\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_02\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_03\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_04\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_05\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_06\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_07\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\" />
+    <Folder Include="Classes\DS400\Module 1\" />
+    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\DS400\Module 1\Practice\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
