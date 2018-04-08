@@ -38,7 +38,34 @@
     <Compile Include="Classes\DS400\Module 1\1.1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\DS400\point_slope.py" />
+    <Compile Include="Classes\DS400\Module 1\1.2.0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.2.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.2.2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.3.0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.3.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.4.0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.4.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.5.0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\1.5.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 1\point_slope.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -125,11 +152,6 @@
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Classes\DS400\Module 1\Practice\1.1.ipynb" />
-    <Content Include="Classes\DS400\Module 1\Practice\1.2.ipynb" />
-    <Content Include="Classes\DS400\Module 1\Practice\1.3.ipynb" />
-    <Content Include="Classes\DS400\Module 1\Practice\1.4.ipynb" />
-    <Content Include="Classes\DS400\Module 1\Practice\1.5.ipynb" />
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
     <Content Include="DoingMathInPython\ch_03\data\scores.txt" />
@@ -151,7 +173,7 @@
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\" />
     <Folder Include="Classes\DS400\Module 1\" />
-    <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\DS400\Module 1\Practice\" />
+    <Folder Include="Classes\DS400\Module 2\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
