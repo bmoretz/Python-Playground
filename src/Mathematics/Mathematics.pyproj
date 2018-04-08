@@ -171,6 +171,17 @@
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_06\" />
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_07\" />
     <Folder Include="C:\Projects\Python-Playground\src\Mathematics\Classes\Calculus\ch_08\" />
+    <Folder Include="Calculus\" />
+    <Folder Include="Calculus\Ch_01\" />
+    <Folder Include="Classes\Calculus\" />
+    <Folder Include="Classes\Calculus\Ch_01\" />
+    <Folder Include="Classes\Calculus\ch_02\" />
+    <Folder Include="Classes\Calculus\ch_03\" />
+    <Folder Include="Classes\Calculus\ch_04\" />
+    <Folder Include="Classes\Calculus\ch_05\" />
+    <Folder Include="Classes\Calculus\ch_06\" />
+    <Folder Include="Classes\Calculus\ch_07\" />
+    <Folder Include="Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\" />
     <Folder Include="Classes\DS400\Module 1\" />
     <Folder Include="Classes\DS400\Module 2\" />
