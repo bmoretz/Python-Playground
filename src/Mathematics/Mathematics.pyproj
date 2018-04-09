@@ -143,6 +143,8 @@
     <Folder Include="E:\GitHub\Python-Playground\src\Mathematics\Classes\Calculus\ch_07\" />
     <Folder Include="E:\GitHub\Python-Playground\src\Mathematics\Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\" />
+    <Folder Include="Classes\DS400\Module 1\" />
+    <Folder Include="Classes\DS400\Module 2\" />
     <Folder Include="DoingMathInPython\" />
     <Folder Include="DoingMathInPython\ch_01" />
     <Folder Include="DoingMathInPython\ch_01\challenge" />
