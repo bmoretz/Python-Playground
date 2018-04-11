@@ -35,7 +35,23 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Calculus\ch_07\wire_cutting_minima.py" />
-    <Compile Include="Classes\DS400\point_slope.py" />
+    <Compile Include="Classes\DS400\Module 1\1.1.py" />
+    <Compile Include="Classes\DS400\Module 1\1.2.0.py" />
+    <Compile Include="Classes\DS400\Module 1\1.2.1.py" />
+    <Compile Include="Classes\DS400\Module 1\1.2.2.py" />
+    <Compile Include="Classes\DS400\Module 1\1.3.0.py" />
+    <Compile Include="Classes\DS400\Module 1\1.3.1.py" />
+    <Compile Include="Classes\DS400\Module 1\1.4.0.py" />
+    <Compile Include="Classes\DS400\Module 1\1.4.1.py" />
+    <Compile Include="Classes\DS400\Module 1\1.5.0.py" />
+    <Compile Include="Classes\DS400\Module 1\1.5.1.py" />
+    <Compile Include="Classes\DS400\Module 1\point_slope.py" />
+    <Compile Include="Classes\DS400\Module 2\linear_solver.py" />
+    <Compile Include="Classes\DS400\Module 2\m2_discussion.py" />
+    <Compile Include="Classes\DS400\Module 2\minimize.py" />
+    <Compile Include="Classes\DS400\Module 2\port_risk.py" />
+    <Compile Include="Classes\DS400\Module 2\pulp_example.py" />
+    <Compile Include="Classes\DS400\Module 2\simplex_matrix.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
