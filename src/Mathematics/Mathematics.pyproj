@@ -130,6 +130,15 @@
     <Content Include="Workbooks\Working.xlsx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Classes\Calculus\" />
+    <Folder Include="Classes\Calculus\Ch_01\" />
+    <Folder Include="Classes\Calculus\ch_02\" />
+    <Folder Include="Classes\Calculus\ch_03\" />
+    <Folder Include="Classes\Calculus\ch_04\" />
+    <Folder Include="Classes\Calculus\ch_05\" />
+    <Folder Include="Classes\Calculus\ch_06\" />
+    <Folder Include="Classes\Calculus\ch_07\" />
+    <Folder Include="Classes\Calculus\ch_08\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Mathematics\Calculus\" />
     <Folder Include="Mathematics\Calculus\Ch_01\" />
