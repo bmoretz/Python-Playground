@@ -1,11 +1,11 @@
-# A farmer has 600 acres of available land and ​$120,000 to spend. 
+# A farmer has 480 acres of available land and ​$72,000 to spend. 
 # He wants to plant the combination of crops which maximizes his profit. 
 # Complete parts​ (a) through​ (c).
 # 
 
 from pulp import *
 
-num_acres = 480
+num_acres = 400
 cost_per_acre = 72000
 
 pot_cost = 320
