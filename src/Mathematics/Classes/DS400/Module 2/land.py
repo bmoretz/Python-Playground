@@ -42,4 +42,4 @@ print( 'Optimal Sln: {0}'.format(pulp.value(farm_prob.objective)))
 # shadow
 # 0 * 400 + .375 * 88000
 
-.375 * 72000
+( .375 * 72000 ) / pot_profit
