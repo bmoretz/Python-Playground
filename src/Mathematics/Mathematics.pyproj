@@ -49,7 +49,13 @@
     <Compile Include="Classes\DS400\Module 2\animal_food.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 2\bank.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 2\beer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 2\gas_mix.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 2\land.py">
@@ -60,7 +66,13 @@
     <Compile Include="Classes\DS400\Module 2\minimize.py" />
     <Compile Include="Classes\DS400\Module 2\port_risk.py" />
     <Compile Include="Classes\DS400\Module 2\pulp_example.py" />
+    <Compile Include="Classes\DS400\Module 2\shipping.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 2\simplex_matrix.py" />
+    <Compile Include="Classes\DS400\Module 5\Limits.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -164,6 +176,7 @@
     <Folder Include="Classes\Calculus\ch_06\" />
     <Folder Include="Classes\Calculus\ch_07\" />
     <Folder Include="Classes\Calculus\ch_08\" />
+    <Folder Include="Classes\DS400\Module 5\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Mathematics\Calculus\" />
     <Folder Include="Mathematics\Calculus\Ch_01\" />
