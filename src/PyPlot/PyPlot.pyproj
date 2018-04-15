@@ -27,8 +27,14 @@
     <Compile Include="Draw.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="plot_implicit.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PyPlot.py" />
     <Compile Include="subplots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="symplot.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

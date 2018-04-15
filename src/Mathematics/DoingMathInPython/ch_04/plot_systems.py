@@ -1,15 +1,15 @@
-from sympy import symbols, sympify, factor, pprint, init_printing, plot
+from sympy import symbols, sympify, factor, pprint, init_printing, plot, solve
 from sympy.core import SympifyError
 
 init_printing( order = 'rev-lex' )
+
+x, y = symbols( 'x, y' )
 
 expr1 = 2*x + 3*y - 6
 expr2 = 3*x + 2*y - 12
 
 expr1 = sympify( expr1 )
 expr2 = sympify( expr2 )
-
-y = symbols( 'y' )
 
 expr1_sln = solve( expr1, y ) 
 expr2_sln = solve( expr2, y )
