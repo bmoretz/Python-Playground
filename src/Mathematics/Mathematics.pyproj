@@ -76,6 +76,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 2\simplex_matrix.py" />
+    <Compile Include="Classes\DS400\Module 3\algea.py" />
+    <Compile Include="Classes\DS400\Module 3\bird_sighting.py" />
+    <Compile Include="Classes\DS400\Module 3\candy.py" />
+    <Compile Include="Classes\DS400\Module 3\diet.py" />
+    <Compile Include="Classes\DS400\Module 3\electronics.py" />
+    <Compile Include="Classes\DS400\Module 3\plant_food.py" />
+    <Compile Include="Classes\DS400\Module 3\supplies.py" />
+    <Compile Include="Classes\DS400\Module 3\workout.py" />
     <Compile Include="Classes\DS400\Module 5\Limits.py">
       <SubType>Code</SubType>
     </Compile>
@@ -183,6 +191,7 @@
     <Folder Include="Classes\Calculus\ch_07\" />
     <Folder Include="Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\Module 2\Python\" />
+    <Folder Include="Classes\DS400\Module 3\" />
     <Folder Include="Classes\DS400\Module 5\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Mathematics\Calculus\" />
