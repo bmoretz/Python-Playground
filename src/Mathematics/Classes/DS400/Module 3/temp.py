@@ -20,16 +20,18 @@ y3 = LpVariable( "y3", 0 ) # Ingredient III
 
 w = LpVariable( "w" )
 
-algea += 3*y1 + 7*y2 + 4*y3
+algea += 5*y1 + 7*y2 + 4*y3
 
 # Constraints
 
-algea += 3*y1	+ 2*y2	+ 11*y3		>= 10 # D
-algea += 6*y1	+ 4*y2	+ 2*y3		>= 18 # E
-algea += 0*y1	+ 3*y2	+ 4*y3		>= 20 # F
+algea += 5*y1 + 1*y2 + 9*y3 >= 10 # D
+algea += 3*y1 + 2*y2 + 1*y3 >= 18 # E
+algea += 0*y1 + 3*y2 + 4*y3 >= 20 # F
 
 algea.solve()
-algea.status
+algea
+
+algea.LpStatus[ algea.status ]
 
 for variable in algea.variables():
     print("{0} = {1}".format( variable.name, variable.varValue ))

@@ -1,16 +1,16 @@
-# A manufacturer purchases a part for use at both of its plants-one at​ Roseville, California, the other at​ Akron, Ohio. 
-# The part is available in limited quantities from two suppliers.
+# A manufacturer purchases a part for use at both of its plantsdashone at​ Roseville, California, the other at​ Akron, Ohio. 
+# The part is available in limited quantities from two suppliers. 
 
-# Each supplier has 80 units available. 
+# Each supplier has 85 units available. 
 
-# The Roseville plant needs 20 ​units, and the Akron plant requires 80 units. 
+# The Roseville plant needs 50 ​units, and the Akron plant requires 85 units. 
 
-# The first supplier charges ​$40 per unit delivered to Roseville and ​$70 per unit delivered to Akron. 
+# The first supplier charges ​$50 per unit delivered to Roseville and ​$80 per unit delivered to Akron. 
 
-# Corresponding costs from the second supplier are ​$50 and ​$100. 
+# Corresponding costs from the second supplier are ​$90 and ​$110. 
 
-# The manufacturer wants to order a total of 80 units from the​ first, less expensive​ supplier, with the remaining 20 units to come from the second supplier. 
-# If the company spends ​$7000 to purchase the required number of units for the two​ plants, find the number of units that should be sent from each supplier to each plant.
+# The manufacturer wants to order a total of 85 units from the​ first, less expensive​ supplier, with the remaining 50 units to come from the second supplier. 
+# If the company spends ​$10,800 to purchase the required number of units for the two​ plants, find the number of units that should be sent from each supplier to each plant.
 
 # Write a linear system of equations. 
 
@@ -25,13 +25,16 @@ from sympy import symbols, solve
 
 w,x,y,z = symbols( 'w,x,y,z' )
 
-# w + y = 20
-expr1 = w + y - 20
-# w + x = 80
-expr2 = w + x - 80
-# w + x + y + z = 100
-expr3 = w + x + y + z - 100
-# 40*w + 70*x + 50*y + 100*z
-expr4 = 40*w + 70*x + 50*y + 100*z - 7000
+# w + y = 50
+expr1 = w + y - 50
+
+# w + x = 85
+expr2 = w + x - 85
+
+# w + x + y + z = 135
+expr3 = w + x + y + z - 135
+
+# 50*w + 80*x + 90*y + 110*z
+expr4 = 50*w + 80*x + 90*y + 110*z - 10800
 
 solve( ( expr1, expr2, expr3, expr4 ), dict = True )

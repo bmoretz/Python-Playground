@@ -1,11 +1,11 @@
 # As part of a weight reduction​ program, a man designs a monthly exercise program consisting of​ bicycling, jogging, and swimming.
 
 # He would like to 
-# exercise at most 22 ​hours, 
-# devote at most 2 hours to​ swimming, 
+# exercise at most 28 ​hours, 
+# devote at most 6 hours to​ swimming, 
 # and jog for no more than the total number of hours bicycling and swimming.
 
-# The calories burned by this person per hour by​ bicycling, jogging, and swimming are​ 200, 514​, and 286​, respectively. 
+# The calories burned by this person per hour by​ bicycling, jogging, and swimming are​ 200, 427​, and 283​, respectively. 
 
 # How many hours should be allotted to each activity to maximize the number of calories​ burned? What is the maximum number of calories he will​ burn?
 #  (Hint: Write the constraint involving jogging in the form less than or equals​ 0.)
@@ -26,13 +26,13 @@ x3 = LpVariable( "x3", 0 ) # Swimming
 
 w = LpVariable( "w" )
 
-workout += 200*x1 + 514*x2 + 286*x3
+workout += 200*x1 + 427*x2 + 283*x3
 
 # Constraints
 
-workout += x1 + x2 + x3 <= 22 # no more than 22 hours, total
-workout += x3 <= 2
-workout += x2 <= x1 + x3
+workout += x1 + x2 + x3 <= 28 # no more than total hours
+workout += x3 <= 6 # at most hours swimming
+workout += x2 <= x1 + x3 # jog no more than Bicycling + Swimming
 
 
 workout.solve()

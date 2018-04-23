@@ -8,6 +8,8 @@
 # a. Write a system of inequalities to express the conditions of the problem.
 # b. Graph the feasible region of the system.
 
+# https://www.desmos.com/
+
 from sympy import symbols, plot_implicit, plot
 from sympy.plotting import plot_parametric
 
@@ -17,7 +19,7 @@ y_rng = 15
 x, y = symbols( 'x, y' )
 
 exprs = [[ x + y >= 5, 'b' ],
-		 [ 2*x + y >= 9, 'r'],
+		 [ 2*x + y >= 10, 'r'],
 		 [ x + y <= 8, 'g']]
 
 p = plot_implicit( exprs[ 0 ][ 0 ], ( x, -x_rng, x_rng ), ( y, -y_rng, y_rng ),\

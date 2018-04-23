@@ -83,6 +83,9 @@
     <Compile Include="Classes\DS400\Module 3\electronics.py" />
     <Compile Include="Classes\DS400\Module 3\plant_food.py" />
     <Compile Include="Classes\DS400\Module 3\supplies.py" />
+    <Compile Include="Classes\DS400\Module 3\temp.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 3\workout.py" />
     <Compile Include="Classes\DS400\Module 5\Distance.py" />
     <Compile Include="Classes\DS400\Module 5\Limits.py">

@@ -1,4 +1,4 @@
-# A candy company has 132 kg of​ chocolate-covered nuts and 90 kg of​ chocolate-covered raisins to be sold as two different mixes. 
+# A candy company has 180 kg of​ chocolate-covered nuts and 108 kg of​ chocolate-covered raisins to be sold as two different mixes. 
 
 # One mix will contain half nuts and half raisins and will sell for​ $7 per kg. 
 # The other mix will contain three fourths nuts and one fourth raisins and will sell for​ $9.50 per kg.
@@ -24,8 +24,8 @@ candy += 7*x + 11*y
 
 # Constraints
 
-candy += .5*x + .75*y <= 132
-candy += .5*y + .25*y <= 90
+candy += .5*x + .75*y <= 180
+candy += .5*x + .25*y <= 108
 
 candy.solve()
 candy.LpStatus[ candy.status ]
