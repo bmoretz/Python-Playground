@@ -91,6 +91,9 @@
     <Compile Include="Classes\DS400\Module 5\Limits.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Quiz II\graph.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\multi_table_ext.py" />
@@ -197,6 +200,7 @@
     <Folder Include="Classes\DS400\Module 2\Python\" />
     <Folder Include="Classes\DS400\Module 3\" />
     <Folder Include="Classes\DS400\Module 5\" />
+    <Folder Include="Classes\DS400\Quiz II\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Mathematics\Calculus\" />
     <Folder Include="Mathematics\Calculus\Ch_01\" />
