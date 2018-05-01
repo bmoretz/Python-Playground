@@ -1,11 +1,11 @@
 import networkx as nx
 
-z = [ 4, 3, 3, 2, 2 ]
+z = [ 1, 1, 2, 4 ]
 
 print( nx.is_valid_degree_sequence_erdos_gallai( z ) )
 
 print("Configuration model")
-G = configuration_model(z)  # configuration model
+G = nx.configuration_model(z)  # configuration model
 
 degree_sequence = list( nx.degree(G) ) # degree sequence
 

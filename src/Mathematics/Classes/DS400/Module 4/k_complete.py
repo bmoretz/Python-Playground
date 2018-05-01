@@ -2,16 +2,17 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from networkx.algorithms import bipartite
 
-# Draws a Cycle Graph ( C ) with N nodes
-# bipartite for nodes >= 3 and Even
-# Euler Circuit for Nodes > 1 and odd
+# Draws a Complete Graph ( K ) with N nodes, Kn
+# This graph is bipartite when n >= 3 and even
 
-nodes = 3
+nodes = 5
 
-G = nx.cycle_graph( nodes )
+G = nx.complete_graph( nodes )
+
+paths = nx.all_simple_paths(G, source=0, target=3, cutoff=2)
+print(list(paths))
 
 nx.draw_networkx(G)
 plt.show()
 
-print( 'is bipartite: {0}'.format( bipartite.is_bipartite( G ) ) )
-[u for u,v in nx.eulerian_circuit(G)]
+bipartite.is_bipartite( G )
