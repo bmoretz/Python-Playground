@@ -9,6 +9,9 @@ G = nx.configuration_model(z)  # configuration model
 
 degree_sequence = list( nx.degree(G) ) # degree sequence
 
+nx.draw_networkx(G)
+plt.show()
+
 if __name__ == '__main__':
 	print( "Degree sequence %s" % degree_sequence )
 	print( 'Nodes: {0}'.format( len( G.nodes() ) ) )

@@ -82,16 +82,30 @@
     <Compile Include="Classes\DS400\Module 3\diet.py" />
     <Compile Include="Classes\DS400\Module 3\electronics.py" />
     <Compile Include="Classes\DS400\Module 3\plant_food.py" />
+    <Compile Include="Classes\DS400\Module 3\quiz.py" />
     <Compile Include="Classes\DS400\Module 3\supplies.py" />
     <Compile Include="Classes\DS400\Module 3\temp.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 3\workout.py" />
+    <Compile Include="Classes\DS400\Module 4\c_cycle.py" />
+    <Compile Include="Classes\DS400\Module 4\degree_sequence.py" />
+    <Compile Include="Classes\DS400\Module 4\from_matrix.py" />
+    <Compile Include="Classes\DS400\Module 4\graph.py" />
+    <Compile Include="Classes\DS400\Module 4\k_complete.py" />
+    <Compile Include="Classes\DS400\Module 4\k_lollipop.py" />
+    <Compile Include="Classes\DS400\Module 4\q_hypercube.py" />
+    <Compile Include="Classes\DS400\Module 4\weighted_graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 4\w_wheel.py" />
     <Compile Include="Classes\DS400\Module 5\Distance.py" />
     <Compile Include="Classes\DS400\Module 5\Limits.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\DS400\Quiz II\graph.py">
+    <Compile Include="Classes\DS400\Module 5\rate_of_change.py" />
+    <Compile Include="Classes\DS400\Module 5\slope_tangent.py" />
+    <Compile Include="Classes\DS400\Module 4\peterson_graph.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
@@ -199,8 +213,8 @@
     <Folder Include="Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\Module 2\Python\" />
     <Folder Include="Classes\DS400\Module 3\" />
+    <Folder Include="Classes\DS400\Module 4\" />
     <Folder Include="Classes\DS400\Module 5\" />
-    <Folder Include="Classes\DS400\Quiz II\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Mathematics\Calculus\" />
     <Folder Include="Mathematics\Calculus\Ch_01\" />
