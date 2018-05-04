@@ -19,6 +19,7 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Classes\Calculus\Ch_01\points.py" />
     <Compile Include="Classes\Calculus\Ch_01\_scratch.py" />
     <Compile Include="Classes\Calculus\ch_03\3.1.py" />
     <Compile Include="Classes\Calculus\ch_03\3.2.py" />
@@ -99,11 +100,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 4\w_wheel.py" />
+    <Compile Include="Classes\DS400\Module 5\bmi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 5\Distance.py" />
     <Compile Include="Classes\DS400\Module 5\ex_11.1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 5\Limits.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 5\marginal_revenue.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 5\practice_1.py">
@@ -198,6 +205,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_07\_scratch.py" />
+    <Compile Include="Classes\Linear Algebra\ch_02\2.2.py" />
+    <Compile Include="Classes\Linear Algebra\ch_02\2.3.py" />
+    <Compile Include="Classes\Linear Algebra\ch_02\2.6.py" />
+    <Compile Include="Classes\Linear Algebra\ch_03\3.1.py" />
+    <Compile Include="Classes\Linear Algebra\ReducedRow_EF.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
@@ -221,18 +233,6 @@
     <Folder Include="Classes\DS400\Module 3\" />
     <Folder Include="Classes\DS400\Module 4\" />
     <Folder Include="Classes\DS400\Module 5\" />
-    <Folder Include="Mathematics\" />
-    <Folder Include="Mathematics\Calculus\" />
-    <Folder Include="Mathematics\Calculus\Ch_01\" />
-    <Folder Include="Mathematics\Classes\Calculus\" />
-    <Folder Include="Mathematics\Classes\Calculus\Ch_01\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_02\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_03\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_04\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_05\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_06\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_07\" />
-    <Folder Include="Mathematics\Classes\Calculus\ch_08\" />
     <Folder Include="Classes\DS400\" />
     <Folder Include="Classes\DS400\Module 1\" />
     <Folder Include="Classes\DS400\Module 2\" />
@@ -254,9 +254,10 @@
     <Folder Include="DoingMathInPython\ch_07" />
     <Folder Include="DoingMathInPython\ch_07\challenge\" />
     <Folder Include="Finance\" />
-    <Folder Include="Mathematics\Classes\" />
-    <Folder Include="Mathematics\Classes\DS400\" />
     <Folder Include="Classes\" />
+    <Folder Include="E:\GitHub\Python-Playground\src\Mathematics\Classes\Linear Algebra\" />
+    <Folder Include="E:\GitHub\Python-Playground\src\Mathematics\Classes\Linear Algebra\ch_02\" />
+    <Folder Include="E:\GitHub\Python-Playground\src\Mathematics\Classes\Linear Algebra\ch_03\" />
     <Folder Include="ScientificProgrammingPrimer\" />
     <Folder Include="ScientificProgrammingPrimer\ch_01\" />
     <Folder Include="Workbooks\" />

@@ -32,8 +32,8 @@ y_l=g(x_l)
 
 # The following determines the vertical boundaries of the resulting plot.
 
-ymax=max(abs(y_r))+0.5
-ymin=-ymax
+ymax = max( abs(y_r) ) + 0.5
+ymin = -ymax
 
 figure()
 xlim(-delta-0.5,delta+0.5)
