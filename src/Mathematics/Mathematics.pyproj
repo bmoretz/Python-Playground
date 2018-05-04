@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c8318637-8df5-4b86-9079-f59a32e4f363}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>Classes\DS400\Module 5\ex_11.1.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -100,7 +100,13 @@
     </Compile>
     <Compile Include="Classes\DS400\Module 4\w_wheel.py" />
     <Compile Include="Classes\DS400\Module 5\Distance.py" />
+    <Compile Include="Classes\DS400\Module 5\ex_11.1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 5\Limits.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 5\practice_1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 5\rate_of_change.py" />
