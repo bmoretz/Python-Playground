@@ -8,7 +8,7 @@ M = Matrix( [ [ 1, 2, 2, 2 ], \
 result = M.rref()
 
 # Reduced Row Form
-np.array(result[0].tolist(), dtype=float)
+np.array( result[0].tolist(), dtype=float )
 
 # Pivot Variables
 pivots = result[ 1 ]

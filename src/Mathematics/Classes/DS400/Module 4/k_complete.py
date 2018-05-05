@@ -9,10 +9,10 @@ nodes = 5
 
 G = nx.complete_graph( nodes )
 
-paths = nx.all_simple_paths(G, source=0, target=3, cutoff=2)
-print(list(paths))
-
 nx.draw_networkx(G)
 plt.show()
+
+paths = nx.all_simple_paths(G, source=0, target=4, cutoff=2)
+print(list(paths))
 
 bipartite.is_bipartite( G )
