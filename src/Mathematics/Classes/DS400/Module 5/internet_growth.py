@@ -4,7 +4,6 @@
 # In 1990​ (when t = ​0), the number of users was about 4 ​million, and the number is expected to level out around 210 million.
 
 from sympy import *
-from fractions import Fraction
 
 init_printing()
 

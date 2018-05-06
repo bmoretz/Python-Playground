@@ -7,7 +7,6 @@
 # R(q) = 109q + 48q / ln(q)
 
 from sympy import *
-from fractions import Fraction
 
 init_printing()
 

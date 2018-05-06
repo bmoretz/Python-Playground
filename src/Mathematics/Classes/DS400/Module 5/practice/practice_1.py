@@ -103,5 +103,3 @@ show()  # Plot shows convergence to limit at infinity
 
 # Exercise #2: Generalize the code which was used to determine a limiting
 # value at infinity.  Apply to Lial Section 11.1 Example 11.
-
-

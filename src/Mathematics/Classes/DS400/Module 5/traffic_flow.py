@@ -2,9 +2,7 @@
 # A mathematical model for traffic shows that if the expected waiting time for the child is to be at most 1​ minute, then the maximum traffic​ flow, in cars per​ hour, is given by
 # f(x) = 29,403( 2.335 - log( x ) ) / x, where x is the width of the street in feet.
 
-import mpmath
 from sympy import *
-from fractions import Fraction
 
 init_printing()
 
