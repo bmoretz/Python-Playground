@@ -20,11 +20,11 @@ x = symbols( 'x' )
 C = x**3 - 3*x**2 + 8*x + 50
 dC = diff( C, x )
 
-critical_numbers = solve( dC )
+critical_numbers = solve( dC, x )
 
-critical_numbers
+p = plot( visible = False )
 
-p = plot( C, show=False ) 
-Point2D( critical_numbers )
+p[1] = C
+p[2] = dC
 
 p.show()
