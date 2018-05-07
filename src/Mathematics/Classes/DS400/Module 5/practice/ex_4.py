@@ -45,7 +45,7 @@ domain = 3.14
 
 # Calculate values for the function on both sides of x=1.0.
 u = arange( point-domain, point+domain + 0.1, 0.1 )
-z = f(u)
+z = f( u )
 
 # This allows us to plot in layers showing the tangent and the function.
 # The scatter command allows a single point to be plotted.
