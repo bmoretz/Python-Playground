@@ -2,7 +2,7 @@
 # P(t) = 10*ln( 0.19*t + 1 ) / 0.19*t + 1
 
 from sympy import *
-from sympy.plotting import (plot, plot_parametric,
+from sympy.plotting import (Plot, plot, plot_parametric,
                             plot3d_parametric_surface, plot3d_parametric_line,
                             plot3d)
 

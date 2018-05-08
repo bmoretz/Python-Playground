@@ -2,8 +2,10 @@
 # C(x) = x^3 - 3*x^2 + 8*x + 50
 
 # Where is​ C(x) decreasing?
+	# It Doesn't.
 
-# Where is​ C(x) increasing?
+# Where is​ C(x) increasing? 
+	# -Inf, Inf
 
 from sympy import *
 from sympy.plotting import (plot, plot_parametric,
@@ -20,11 +22,15 @@ x = symbols( 'x' )
 C = x**3 - 3*x**2 + 8*x + 50
 dC = diff( C, x )
 
-critical_numbers = solve( dC, x )
+dis = discriminant( dC )
 
-p = plot( visible = False )
+p = plot( C, line_color = 'B', show = False )
 
-p[1] = C
-p[2] = dC
+if dis < 0:
+	p2 = plot( dC, line_color = 'R', title = 'Continuous', show = False )
+else:
+	critical_numbers = solve( dC, x )
 
+p.legend = True
+p.append( p2[ 0 ] )
 p.show()
