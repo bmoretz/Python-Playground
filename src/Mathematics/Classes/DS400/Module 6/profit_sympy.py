@@ -4,7 +4,7 @@
 from sympy import *
 from sympy.plotting import ( plot, plot_parametric )
 
-g_xlim = [ -9, 9 ]
+g_xlim = [ -10, 10 ]
 g_ylim = [ -7, 7 ]
 
 x = symbols( 'x' )

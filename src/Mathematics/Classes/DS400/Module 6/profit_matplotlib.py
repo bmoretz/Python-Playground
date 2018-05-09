@@ -5,13 +5,8 @@ from sympy import solve, Limit, lambdify, symbols, diff, ln
 import matplotlib.pyplot as plt
 import numpy as np
 
-init_printing()
-
-g_xlim = [ -15, 15 ]
-g_ylim = [ -7, 7 ]
-
-def disp_fun( f ):
-	pprint( '\n{0}\n\n'.format( pretty( f ) ) )
+g_xlim = [ 0, 10 ]
+g_ylim = [ 0, 7 ]
 
 x = symbols( 'x' )
 
@@ -20,13 +15,12 @@ dP = diff( P, x )
 
 lam_x = lambdify( x, P, modules=['numpy'] )
 
-x_vals = np.linspace( -10, 10, 1000, endpoint = True )
+x_vals = np.linspace( g_xlim[ 0 ], g_xlim[ 1 ], 1000, endpoint = True )
 y_vals = lam_x( x_vals )
 
 plt.plot( x_vals, y_vals )
 plt.xlim( g_xlim )
 plt.ylim( g_ylim )
+plt.xlabel( 'Units Produced' )
 plt.ylabel( "Profit" )
 plt.show()
-
-round( P.subs( { x: 7 } ).evalf() * 1000, 2 )
