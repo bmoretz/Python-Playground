@@ -11,20 +11,20 @@ import numpy as np
 
 domain_end = 20
 
-g_xlim = [0, 40]
-g_ylim = [0, 70]
+g_xlim = [-5, 40]
+g_ylim = [-5, 70]
 
 # eq
 
-x = symbols('x')
-R = 11000 - x ** 3 + 42 * x ** 2 + 800 * x
+x = symbols('x', positive = True ) # 0 <= x
+R = 11000 - x ** 3 + 42 * x ** 2 + 800 * x # Revenue
 
-lam_x = lambdify(x, R, modules=['numpy'])
+lam_x = lambdify( x, R, np )
 
 x_vals = np.linspace( g_xlim[0], g_xlim[1], 1000, endpoint=True )
 y_vals = lam_x( x_vals )
 
-plt.plot( x_vals, y_vals )
+plt.plot( x_vals, y_vals, label = 'Revenue' )
 
 # Inflection Point, second derivative, ( Green )
 
@@ -32,8 +32,8 @@ dR = diff( R, x, 2 )
 inflection_point = solve( dR, x )[ 0 ]
 inflection_value = R.subs( { x: inflection_point } )
 
-section = np.arange( 0, int(inflection_point), 1/20.)
-plt.fill_between(section,lam_x(section), alpha = .4 )
+section = np.arange( 0, int( inflection_point ), 1/20.)
+plt.fill_between( section,lam_x(section), alpha = .4 )
 
 plt.vlines( x = inflection_point, ymin = 0, ymax = inflection_value, color='G', zorder = 1 )
 plt.hlines( y = inflection_value, xmin = 0, xmax = inflection_point, color = 'G', zorder = 1 )
@@ -41,7 +41,11 @@ plt.text( 0, inflection_value + 2000, 'Inflection Point: {0}'.format( inflection
 
 # Domain End (Black)
 plt.vlines( x = domain_end, ymin = 0, ymax = R.subs( { x: domain_end } ), color='Black', zorder=2)
+plt.text( domain_end + 1, 1000, 'Domain Bounds' )
+
+# Linear Domain
 
 plt.xlabel('ROI')
 plt.ylabel('Advertising $(k)')
+plt.legend()
 plt.show()

@@ -62,6 +62,3 @@ for variable in prob_b.variables():
     print("{0} = {1}".format(variable.name, variable.varValue))
 
 print( 'Optimal Sln: {0}'.format(pulp.value(prob_b.objective)))
-
-
-

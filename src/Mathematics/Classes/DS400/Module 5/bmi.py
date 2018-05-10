@@ -48,4 +48,3 @@ height = 66
 rate_of_change = float( dH.subs( { h: height } ) )
 
 print( 'rate of change for female {0}'.format( round( rate_of_change, 2 ) ) )
-

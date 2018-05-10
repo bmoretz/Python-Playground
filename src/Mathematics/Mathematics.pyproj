@@ -83,7 +83,6 @@
     <Compile Include="Classes\DS400\Module 3\diet.py" />
     <Compile Include="Classes\DS400\Module 3\electronics.py" />
     <Compile Include="Classes\DS400\Module 3\plant_food.py" />
-    <Compile Include="Classes\DS400\Module 3\quiz.py" />
     <Compile Include="Classes\DS400\Module 3\supplies.py" />
     <Compile Include="Classes\DS400\Module 3\temp.py">
       <SubType>Code</SubType>
@@ -132,16 +131,22 @@
     </Compile>
     <Compile Include="Classes\DS400\Module 5\traffic.py" />
     <Compile Include="Classes\DS400\Module 5\traffic_flow.py" />
+    <Compile Include="Classes\DS400\Module 6\deminishing_returns.py" />
     <Compile Include="Classes\DS400\Module 6\epidemic.py" />
+    <Compile Include="Classes\DS400\Module 6\m6_discussion.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 6\practice\practice_1.py" />
     <Compile Include="Classes\DS400\Module 6\practice\practice_2.py" />
     <Compile Include="Classes\DS400\Module 6\profit_sympy.py" />
     <Compile Include="Classes\DS400\Module 6\profit_matplotlib.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 6\revenue_optimization.py" />
     <Compile Include="Classes\DS400\Module 6\standard_normal.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 6\training.py" />
     <Compile Include="Classes\DS400\Module 6\weed_killer.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />
     <Compile Include="DoingMathInPython\ch_01\challenge\fraction_calc.py" />
