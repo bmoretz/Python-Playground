@@ -11,8 +11,8 @@ def plot_fun( fun, name, col ):
 
 a, b = 4, 6
 x = symbols( 'x' )
-F = x**3 + x**2 + 4
-G = -3*x**3 + x**2 + 1
+F = x**4 + x**3 + x**2 + 4
+G = -5*x**3 + x**2 + 1
 
 lam_f = lambdify( x, F, np )
 plot_fun( lam_f, str(F), 'B' )
@@ -21,8 +21,6 @@ lam_g = lambdify( x, G, np )
 plot_fun( lam_g, str(G), 'R' )
 
 H = F - G
-
-H.subs( { x: a } )
 
 plt.vlines( x = a, ymin = G.subs( { x: a } ), ymax = F.subs( { x: a } ), color = 'Black', zorder = 1, alpha = .4 )
 plt.vlines( x = b, ymin = G.subs( { x: b } ), ymax = F.subs( { x: b } ), color = 'Black', zorder = 1, alpha = .4 )
@@ -35,8 +33,7 @@ for n in bounds:
 	plt.vlines( x = n, ymin = y2, ymax = y1, color = 'Teal', zorder = 1, alpha = .2 )
 
 area = integrate( H, ( x, a, b ) ).evalf()
-area = round( area, 3 )
 
-plt.title( 'Area Between a ({0}) and b ({1}) is {2}'.format( a, b, area ) ) 
+plt.title( 'Area Between a [{0}] and b [{1}] is {2}'.format( a, b, round( area, 3 ) ) ) 
 plt.legend()
 plt.show()
