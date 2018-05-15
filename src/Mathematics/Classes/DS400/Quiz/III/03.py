@@ -10,8 +10,8 @@ def avg_rate_of_change( f, a, b ):
 
 t = symbols( 't', positive = True )
 
-r = 1.077
-A = 11.21 * ( r ) ** t
+r = 1.065
+A = 11.11*r**t
 years = 12
 
 # use A to estimate the average rate of change in the population from 2000 to 2012.
