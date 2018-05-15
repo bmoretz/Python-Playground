@@ -9,7 +9,7 @@ def disp_fun( f ):
 	pprint( '\n{0}\n\n'.format( pretty( f ) ) )
 
 x = symbols('x', positive = True ) # 0 <= x
-C = 1/2*x**3 + 4*x**2 - 5*x + 20
+C = 1/2*x**3 + 4*x**2 - 2*x + 25
 avgC = C / x
 
 domain_end = 20
@@ -31,6 +31,8 @@ daC = diff( avgC, x, 1 )
 disp_fun( simplify( daC ) )
 
 min = solve( daC, x )[ 0 ]
+
+round( min, 3 )
 
 # Global Min
 avgC.subs( { x: min } )
