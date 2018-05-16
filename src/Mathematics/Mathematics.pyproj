@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c8318637-8df5-4b86-9079-f59a32e4f363}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Classes\DS400\Module 5\ex_11.1.py</StartupFile>
+    <StartupFile>Classes\DS400\Module 7\simpsons_rule.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
