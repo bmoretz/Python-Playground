@@ -25,7 +25,7 @@ H = F - G
 plt.vlines( x = a, ymin = G.subs( { x: a } ), ymax = F.subs( { x: a } ), color = 'Black', zorder = 1, alpha = .4 )
 plt.vlines( x = b, ymin = G.subs( { x: b } ), ymax = F.subs( { x: b } ), color = 'Black', zorder = 1, alpha = .4 )
 
-bounds = np.arange( a, b, 1/50., dtype=float)
+bounds = np.arange( a, b, 1/500., dtype=float)
 
 for n in bounds:
 	y1 = F.subs( { x: n } )
