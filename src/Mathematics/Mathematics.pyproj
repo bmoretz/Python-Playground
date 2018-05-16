@@ -42,6 +42,7 @@
     <Compile Include="Classes\DS400\Module 7\drug_reaction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 7\drug_reaction_approx.py" />
     <Compile Include="Classes\DS400\Module 7\machine_cost.py">
       <SubType>Code</SubType>
     </Compile>
@@ -206,9 +207,12 @@
     <Compile Include="Classes\DS400\Module 7\polution.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 7\simpsons_rule.py" />
+    <Compile Include="Classes\DS400\Module 7\study_results.py" />
     <Compile Include="Classes\DS400\Module 7\supply_demand.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 7\trapezoidal_rule.py" />
     <Compile Include="Classes\DS400\Quiz\III\02.py" />
     <Compile Include="Classes\DS400\Quiz\III\03.py" />
     <Compile Include="Classes\DS400\Quiz\III\06.py" />
