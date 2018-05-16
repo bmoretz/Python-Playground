@@ -1,6 +1,4 @@
 from sympy import *
-import matplotlib.pyplot as plt
-import numpy as np
 
 # The average monthly rent for a​ 1000-sq-ft apartment in a major metropolitan area from 
 # 1998 through 2005 can be approximated by the function below where t is the time in years since 
@@ -12,17 +10,18 @@ C = 1.6668 * t**4 - 16.746 * t**3 + 62.39 * t**2 + 6.9317 * t + 1005
 
 # The rents were increasing most rapidly when 
 dC = diff( C, t, 1 )
-ddC = diff( C, t, 2 )
+ddC = diff( dC, t, 1 )
 
-critical_points = solve( ddC, t )
+critical_values = solve( ddC )
 
-c1 = C.subs( { t: critical_points[ 0 ] } )
-c2 = C.subs( { t: critical_points[ 1 ] } )
+cv_1 = dC.subs( { t : critical_values[ 0 ] } )
+cv_2 = dC.subs( { t : critical_values[ 1 ] } )
 
-# c2 is higher, so
-# The rents were increasing most rapidly when
-round( critical_points[ 1 ], 3 )
+if cv_1 > cv_2:
+	cv = critical_values[ 0 ]
+	print( 'Critical Value {0} is higher [ {1} ]'.format( round( cv, 3 ), cv_1 ) )
+else:
+	cv = critical_values[ 1 ]
+	print( 'Critical Value {0} is higher [ {1} ]'.format( round( cv, 3 ), cv_2 ) )
 
-# Then round to three decimal places as​ needed.)
-year = round( 1998 + critical_points[ 1 ] )
-year
+print( 'Year: {0}'.format( round( 1998 + cv ) ) )

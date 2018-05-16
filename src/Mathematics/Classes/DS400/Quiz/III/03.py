@@ -16,12 +16,12 @@ years = 12
 
 # use A to estimate the average rate of change in the population from 2000 to 2012.
 
-a = round( A.subs( { t: years } ), 0 )
-b = round( A.subs( { t: 0 } ), 0 )
+a = A.subs( { t: years } )
+b = A.subs( { t: 0 } )
 
-chg = ( a - b ) / years
-round( chg, 3 )
+avg_chg = round( ( a - b ) / years, 3 )
+round( avg_chg * 1000000 )
 
 dA = Derivative( A, t ).doit()
 instanious_rate_of_change = dA.subs( { t: years } )
-round( instanious_rate_of_change, 3 )
+round( instanious_rate_of_change, 3 ) * 1000000
