@@ -19,23 +19,23 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Classes\Calculus\Ch_01\points.py" />
-    <Compile Include="Classes\Calculus\Ch_01\_scratch.py" />
-    <Compile Include="Classes\Calculus\ch_03\3.1.py" />
-    <Compile Include="Classes\Calculus\ch_03\3.2.py" />
-    <Compile Include="Classes\Calculus\ch_03\3.3.py" />
-    <Compile Include="Classes\Calculus\ch_04\4.1.py" />
-    <Compile Include="Classes\Calculus\ch_04\4.2.py" />
-    <Compile Include="Classes\Calculus\ch_04\4.3.py" />
-    <Compile Include="Classes\Calculus\ch_05\5.1.py" />
-    <Compile Include="Classes\Calculus\ch_05\5.2.py" />
-    <Compile Include="Classes\Calculus\ch_05\5.3.py" />
-    <Compile Include="Classes\Calculus\ch_06\6.2.py" />
-    <Compile Include="Classes\Calculus\ch_07\box_volume_maxima.py" />
-    <Compile Include="Classes\Calculus\ch_07\can_volume_maxima.py">
+    <Compile Include="Classes\Calculus\Differential\Ch_01\points.py" />
+    <Compile Include="Classes\Calculus\Differential\Ch_01\_scratch.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_03\3.1.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_03\3.2.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_03\3.3.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_04\4.1.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_04\4.2.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_04\4.3.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_05\5.1.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_05\5.2.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_05\5.3.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_06\6.2.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_07\box_volume_maxima.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_07\can_volume_maxima.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\Calculus\ch_07\wire_cutting_minima.py" />
+    <Compile Include="Classes\Calculus\Differential\ch_07\wire_cutting_minima.py" />
     <Compile Include="Classes\DS400\Module 7\area_between_curves.py">
       <SubType>Code</SubType>
     </Compile>
@@ -324,14 +324,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\Calculus\" />
-    <Folder Include="Classes\Calculus\Ch_01\" />
-    <Folder Include="Classes\Calculus\ch_02\" />
-    <Folder Include="Classes\Calculus\ch_03\" />
-    <Folder Include="Classes\Calculus\ch_04\" />
-    <Folder Include="Classes\Calculus\ch_05\" />
-    <Folder Include="Classes\Calculus\ch_06\" />
-    <Folder Include="Classes\Calculus\ch_07\" />
-    <Folder Include="Classes\Calculus\ch_08\" />
+    <Folder Include="Classes\Calculus\Differential\Ch_01\" />
+    <Folder Include="Classes\Calculus\Differential\ch_02\" />
+    <Folder Include="Classes\Calculus\Differential\ch_03\" />
+    <Folder Include="Classes\Calculus\Differential\ch_04\" />
+    <Folder Include="Classes\Calculus\Differential\ch_05\" />
+    <Folder Include="Classes\Calculus\Differential\ch_06\" />
+    <Folder Include="Classes\Calculus\Differential\ch_07\" />
+    <Folder Include="Classes\Calculus\Differential\ch_08\" />
+    <Folder Include="Classes\Calculus\Differential\" />
+    <Folder Include="Classes\Calculus\Multivariable\" />
+    <Folder Include="Classes\Calculus\Stochastic\" />
     <Folder Include="Classes\DS400\Module 2\Python\" />
     <Folder Include="Classes\DS400\Module 3\" />
     <Folder Include="Classes\DS400\Module 4\" />
