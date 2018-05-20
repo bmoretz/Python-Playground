@@ -2,8 +2,8 @@ from sympy import *
 
 # The projected population of a certain ethnic​ group(in millions) can be approximated by
 t = symbols( 't' )
-r = 1.012
-P = 36.15 * ( r**t )
+r = 1.017
+P = 37.48 * ( r**t )
 dP = diff( P, t )
 years = 10
 

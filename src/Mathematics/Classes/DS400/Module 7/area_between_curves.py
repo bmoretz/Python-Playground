@@ -1,4 +1,4 @@
-from sympy import symbols, integrate, Rational, lambdify, sqrt, solve
+from sympy import symbols, integrate, Rational, lambdify, solve
 import matplotlib.pyplot as plt
 import numpy as np
 

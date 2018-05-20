@@ -10,7 +10,7 @@ A = 4.688 * w ** ( 0.8168 - 0.0154*log( w, 10 ) )
 # where w is the weight​ (in grams) and​ A(w) is the BSA in square centimeters.
 
 # Find the BSA for an infant who weighs.
-weight = 4857
+weight = 4143
 
 bsa = A.subs( { w: weight } ).evalf()
 # ​(Round to the nearest integer as​ needed.)

@@ -4,7 +4,7 @@ import numpy as np
 # For a certain​ automobile, Upper M(x), represents the miles per gallon obtained at a speed of x miles per hour.
 
 x = symbols( 'x' )
-M = -.015 * x**2 + 1.38*x - 7.3 # 30 <= x <= 60
+M = -.015 * x**2 + 1.36*x - 7.2 # 30 <= x <= 60
 #M = -0.015 * x**2 + 1.44*x - 7.1 # 30 <= x <= 60
 dM = diff( M, x )
 

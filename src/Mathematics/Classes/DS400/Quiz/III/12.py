@@ -4,7 +4,7 @@ import numpy as np
 
 # Suppose that the cost function for a product is given by
 x = symbols('x', positive = True ) # 0 <= x
-C = 0.003 * x**3 + 7*x + 11719
+C = 0.002 * x**3 + 7*x + 7626
 
 avgC = C / x
 

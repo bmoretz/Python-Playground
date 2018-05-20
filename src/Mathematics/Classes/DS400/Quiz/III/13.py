@@ -6,7 +6,7 @@ from sympy import *
 # Approximately when did this​ occur?
 
 t = symbols( 't', positive = True ) # 0 <= x
-C = 1.6668 * t**4 - 16.746 * t**3 + 62.39 * t**2 + 6.9317 * t + 1005
+C = 1.6434 * t**4 - 21.052 * t**3 + 62.98 * t**2 + 6.1157 * t + 1005
 
 # The rents were increasing most rapidly when 
 dC = diff( C, t, 1 )

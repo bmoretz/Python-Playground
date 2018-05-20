@@ -3,7 +3,7 @@ from sympy import *
 # A psychologist contends that the number of facts of a certain type that are remembered after t hours is given by the following function.
 
 t = symbols( 't' )
-F = 88*t / ( 99*t - 88 )
+F = 86*t / ( 99*t - 86 )
 dF = diff( F, t )
 
 # Find the rate of change at which the number of facts remembered is changing after 1 hour and after 10 hours.

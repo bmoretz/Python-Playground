@@ -3,7 +3,7 @@ from sympy import *
 # If an object is dropped from a 155​-foot-high ​building, its position​ (in feet above the​ ground) is given by ​s(t)​, where t is the time in seconds since it was dropped.
 
 t = symbols( 't' )
-S = -16*t**2 + 155
+S = -16*t**2 + 186
 
 dS = diff( S, t )
 

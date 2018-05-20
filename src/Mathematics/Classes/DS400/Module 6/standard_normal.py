@@ -1,8 +1,4 @@
-# The standard normal probability function is used to describe many different populations. 
-# Its graph is the​ well-known normal curve. 
-# This function is defined below. 
-# Give the intervals where the functions is increasing and decreasing.
-
+# The standard normal probability function is used to describe many different populations.
 # f(x) = 1 / sqrt( 3*pi ) e ^ -x^2/2
 
 from sympy import *

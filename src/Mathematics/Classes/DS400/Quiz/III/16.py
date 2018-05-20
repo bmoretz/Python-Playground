@@ -6,7 +6,7 @@ from sympy import *
 # What dimensions of a rectangular box with square​ cross-section will contain the largest 
 # volume that can be​ mailed? (Hint: There are two different​ girths.)
 
-L = 66
+L = 42
 x = symbols( 'x', positive = True )
 
 V = x**2 * ( L - 4*x )
