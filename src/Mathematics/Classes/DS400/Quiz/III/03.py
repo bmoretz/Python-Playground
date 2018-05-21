@@ -5,6 +5,9 @@ from sympy import *
 # where t=0 corresponds to 2000 and 0 <= t <= 50.
 
 t = symbols( 't', positive = True )
+r = 1.078
+A = 11.27*r**t
+years = 14
 
 r = 1.078
 A = 11.27*r**t
