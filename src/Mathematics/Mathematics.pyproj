@@ -216,10 +216,27 @@
     <Compile Include="Classes\DS400\Module 8\army.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 8\choose.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\earthquake.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\hepatitis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 8\peaches.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 8\practice\Module 8 Practice 1.py" />
+    <Compile Include="Classes\DS400\Module 8\practice\Module 8 Practice 2.py" />
+    <Compile Include="Classes\DS400\Module 8\seatbelts.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 8\subsets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\workers.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Quiz\III\02.py" />
@@ -357,6 +374,7 @@
     <Folder Include="Classes\DS400\Module 7\" />
     <Folder Include="Classes\DS400\Module 7\practice\" />
     <Folder Include="Classes\DS400\Module 8\" />
+    <Folder Include="Classes\DS400\Module 8\practice\" />
     <Folder Include="Classes\DS400\Quiz\" />
     <Folder Include="Classes\DS400\Quiz\III\" />
     <Folder Include="Classes\Linear Algebra\" />
