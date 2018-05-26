@@ -213,7 +213,19 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 7\trapezoidal_rule.py" />
+    <Compile Include="Classes\DS400\Module 8\antibotics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 8\army.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\balances.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\ballot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\breast-cancer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 8\choose.py">
@@ -222,7 +234,18 @@
     <Compile Include="Classes\DS400\Module 8\earthquake.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 8\earth_quake.py" />
+    <Compile Include="Classes\DS400\Module 8\expected_value.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\flights.py" />
     <Compile Include="Classes\DS400\Module 8\hepatitis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\legislative.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\orchids.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 8\peaches.py">
@@ -230,7 +253,13 @@
     </Compile>
     <Compile Include="Classes\DS400\Module 8\practice\Module 8 Practice 1.py" />
     <Compile Include="Classes\DS400\Module 8\practice\Module 8 Practice 2.py" />
+    <Compile Include="Classes\DS400\Module 8\radio_stations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 8\seatbelts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 8\shipement.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 8\subsets.py">
