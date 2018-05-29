@@ -268,10 +268,26 @@
     <Compile Include="Classes\DS400\Module 8\workers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 9\blood_clotting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\CQLProb1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 9\density_function.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 9\driver_age.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\expected_value.py" />
+    <Compile Include="Classes\DS400\Module 9\exponental_distribution.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\insect_life.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\life_expectancy.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Module 9\life_span.py">
@@ -283,7 +299,27 @@
     <Compile Include="Classes\DS400\Module 9\petal_length.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Module 9\petal_length_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\piecewise_ev.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\practice\Module 9 Practice 1.py" />
+    <Compile Include="Classes\DS400\Module 9\practice\Module 9 Practice 2.py" />
+    <Compile Include="Classes\DS400\Module 9\rainfall_3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Module 9\rain_fall.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\rain_fall_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\refund_cost.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\Module 9\uniform_distribution.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Quiz\III\02.py" />
@@ -465,6 +501,8 @@
     <Folder Include="Classes\DS400\Module 8\" />
     <Folder Include="Classes\DS400\Module 8\practice\" />
     <Folder Include="Classes\DS400\Module 9\" />
+    <Folder Include="Classes\DS400\Module 9\practice\" />
+    <Folder Include="Classes\DS400\PFinal\" />
     <Folder Include="Classes\DS400\Quiz\" />
     <Folder Include="Classes\DS400\Quiz\III\" />
     <Folder Include="Classes\DS400\Quiz\IV\" />

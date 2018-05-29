@@ -8,7 +8,8 @@ import numpy as np
 t = symbols( 't' )
 dB = 0.0603*t**2 - 1.729*t + 16.17
 
-y_min = 819900
+# Divide by 1000
+y_min = 819900 / 1000
 
 B = Integral( dB, t ).doit() + y_min
 
@@ -18,14 +19,14 @@ B.subs( { t: 0 } ) == y_min # Verify
 pprint( B )
 
 deg_2011 = B.subs( { t: 41 } )
-round( deg_2011 )
+round( deg_2011 * 1000 )
 
 # What does the degree distribution look like?
 
 g_xlim = [ 0, 50 ]
 
 lam_p = lambdify( t, B, np )
-x_vals = np.linspace( g_xlim[0], g_xlim[1], 1000, endpoint=True )
+x_vals = np.linspace( g_xlim[0], g_xlim[1], 1000, endpoint = True )
 y_vals = lam_p( x_vals )
 plt.plot( x_vals, y_vals )
 

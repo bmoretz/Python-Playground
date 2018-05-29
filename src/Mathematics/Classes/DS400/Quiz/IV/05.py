@@ -33,7 +33,7 @@ x_vals = np.linspace( g_xlim[0], g_xlim[1], 1000, endpoint=True )
 y_vals = lam_i( x_vals )
 plt.plot( x_vals, y_vals, label = "Income" )
 
-days = round( solve( dI - dE, x )[ 0 ] )
+days = solve( dI - dE, x )[ 0 ]
 
 lam_p = lambdify( x, P, np )
 x_vals = np.linspace( g_xlim[0], g_xlim[1], 1000, endpoint=True )
@@ -43,15 +43,15 @@ plt.plot( x_vals, y_vals, label = "Profit" )
 plt.vlines( x = days, ymin = 0, ymax = P.subs( { x: days } ), color = 'Red', zorder = 1 )
 
 income = round( I.subs( { x: days } ), 2 )
-income
-
 expenses = round( E.subs( { x: days } ), 2 )
-expenses
-
-income - expenses
-
 max_profit = round( P.subs( { x: days } ), 2 )
 
 plt.title( 'Max Profit at {0} days, ${1}'.format( days, max_profit ) )
 plt.legend()
 plt.show()
+
+if __name__ == '__main__':
+	print( 'Optimal Days: {0}'.format( round( days ) ) )
+	print( 'Total Income: {0}'.format( income ) )
+	print( 'Total Expenditures: {0}'.format( expenses ) )
+	print( 'Max Profit: {0}'.format( max_profit ) )
