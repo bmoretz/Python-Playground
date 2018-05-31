@@ -351,6 +351,9 @@
     <Compile Include="Classes\DS400\Quiz\IV\p07.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\Quiz\IV\p08.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Quiz\IV\p09.py">
       <SubType>Code</SubType>
     </Compile>
