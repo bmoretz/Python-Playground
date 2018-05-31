@@ -70,12 +70,14 @@ e8 = abs( area - n8 )
 n = 16
 n16 = round( simpsons_rule( F, a, b, n ), 7 )
 n16
-'{:.7f}'.format( abs( n16 - area ) )
+e16 = abs( n16 - area )
+'{:.7f}'.format( e16 )
 
 n = 32
 n32 = round( simpsons_rule( F, a, b, n ), 7 )
 n32
-'{:.7f}'.format( abs( n32 - area ) )
+e32 =  abs( n32 - area )
+'{:.7f}'.format( e32 )
 
 # c
 #  If the error is k/n**p, then the error times n Superscript p should be approximately a constant. Multiply the errors in part b times n**p for p=1, ​2, etc., 
@@ -85,3 +87,10 @@ e = symbols( 'e' )
 er = e4*e
 
 solve( er - e8, e )
+
+p = 4
+
+e4 * 4 ** p
+e8 * 8 ** p
+e16 * 16 ** p
+e32 * 32 ** p
