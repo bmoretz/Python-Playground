@@ -59,23 +59,23 @@ n = 4
 n4 = round( simpsons_rule( F, a, b, n ), 7 )
 n4
 e4 = round( abs( area - n4 ), 7 )
-e4
+'{:.7f}'.format( abs( e4 - area ) )
 
 n = 8
 n8 = round( simpsons_rule( F, a, b, n ), 7 )
 n8
-e8 = round( abs( area - n8 ), 7 )
-e8
+e8 = abs( area - n8 )
+'{:.7f}'.format( abs( e8 - area ) )
 
 n = 16
 n16 = round( simpsons_rule( F, a, b, n ), 7 )
 n16
-round( abs( area - n16 ), 7 )
+'{:.7f}'.format( abs( n16 - area ) )
 
 n = 32
 n32 = round( simpsons_rule( F, a, b, n ), 7 )
 n32
-round( abs( area - n32 ), 7 )
+'{:.7f}'.format( abs( n32 - area ) )
 
 # c
 #  If the error is k/n**p, then the error times n Superscript p should be approximately a constant. Multiply the errors in part b times n**p for p=1, ​2, etc., 

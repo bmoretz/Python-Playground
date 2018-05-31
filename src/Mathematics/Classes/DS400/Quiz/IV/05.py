@@ -5,11 +5,11 @@ import numpy as np
 x = symbols( 'x' )
 
 # A construction company has an expenditure rate of
-dE = exp( 0.13*x )
+dE = exp( 0.12 * x )
 E = integrate( dE, x )
 
 #  dollars per day on a particular paving job and an income rate
-dI = 116.3 - exp( 0.13 * x )
+dI = 120.8 - exp( 0.12 * x )
 I = integrate( dI, x )
 
 # dollars per day on the same​ job, where x is the number of days from the start of the job. 
@@ -46,12 +46,13 @@ income = round( I.subs( { x: days } ), 2 )
 expenses = round( E.subs( { x: days } ), 2 )
 max_profit = round( P.subs( { x: days } ), 2 )
 
+days = round( days )
+
 plt.title( 'Max Profit at {0} days, ${1}'.format( days, max_profit ) )
-plt.legend()
 plt.show()
 
 if __name__ == '__main__':
-	print( 'Optimal Days: {0}'.format( round( days ) ) )
+	print( 'Optimal Days: {0}'.format( days ) )
 	print( 'Total Income: {0}'.format( income ) )
 	print( 'Total Expenditures: {0}'.format( expenses ) )
 	print( 'Max Profit: {0}'.format( max_profit ) )
