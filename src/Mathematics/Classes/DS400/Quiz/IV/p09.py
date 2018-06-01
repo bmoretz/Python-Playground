@@ -9,12 +9,12 @@ from sympy import ( symbols, solve, FiniteSet )
 # 28 had green​ peas;
 # 37 had smooth​ peas;
 
-# 13 were tall and had green​ peas;
-# 19 had green peas and smooth​ peas;
+U = 55
+N = 2
 
-# 7 had all three​ characteristics;
+C = U - N
 
-# 2 had none of the characteristics.
+A = 7
 
 x = symbols( 'x' )
 
@@ -57,6 +57,10 @@ v = venn3( subsets=( T, TG, G, GS, S, TS, A ) )
 v.get_label_by_id('A').set_text('Tall')
 v.get_label_by_id('B').set_text('Green Peas')
 v.get_label_by_id('C').set_text('Smooth Peas')
+
+print( 'Plants that are tall and smooth peas {0}'.format( TS + A ) )
+print( 'Plants that are not smooth or green {0}'.format( T ) )
+print( 'Plants that are not tall but have smooth AND green peas {0}'.format( SG ) )
 
 plt.title( "Pea Plants" )
 plt.show()
