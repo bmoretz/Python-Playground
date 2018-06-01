@@ -472,7 +472,6 @@
     <Compile Include="Classes\Linear Algebra\ReducedRow_EF.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Classes\DS400\PFinal\Spring Practice Final Solutions-9.ipynb" />
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
     <Content Include="DoingMathInPython\ch_03\data\scores.txt" />
