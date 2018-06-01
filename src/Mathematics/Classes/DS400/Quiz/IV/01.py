@@ -39,5 +39,6 @@ plt.vlines( x = x_min, ymin = y_min, ymax = B.subs( { t: x_min } ), color = 'Bla
 plt.vlines( x = x_max, ymin = y_min, ymax = B.subs( { t: x_max } ), color = 'Red', zorder = 1 )
 plt.text( x = x_max, y= deg_2010, s = str( degrees ) )
 
+
 plt.title( str( B ) )
 plt.show()
