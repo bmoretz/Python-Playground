@@ -6,22 +6,22 @@ from sympy import ( symbols, solve )
 
 x = symbols( 'x' )
 
-U = 52
+U = 55
 N = 2
 
 C = U - N
 
-A = 4
+A = 7
 
-TGx = 8
-SGx = 16
+TGx = 13
+SGx = 19
 TSx = x + A
 
-Tx = 20
+Tx = 26
 Gx = 28
-Sx = 36
+Sx = 37
 
-TS = solve( ( Tx + Gx + Sx - SGx - TGx - TSx - A ) - C, x )[ 0 ]
+TS = solve( ( Tx + Gx + Sx - SGx - TGx - TSx + A ) - C, x )[ 0 ]
 TG = TGx - A
 SG = SGx - A
 
@@ -34,6 +34,10 @@ v = venn3( subsets=( T, G, TG, S, TS, SG, A ) )
 v.get_label_by_id('A').set_text('Tall')
 v.get_label_by_id('B').set_text('Green Peas')
 v.get_label_by_id('C').set_text('Smooth Peas')
+
+print( 'Plants that are tall and smooth peas {0}'.format( TS + A ) )
+print( 'Plants that are not smooth or green {0}'.format( T ) )
+print( 'Plants that are not tall but have smooth AND green peas {0}'.format( SG ) )
 
 plt.title( "Pea Plants" )
 plt.show()

@@ -32,7 +32,7 @@ def simpsons_rule( f, a, b, n ):
 # Function
 
 x = symbols( 'x' )
-F = 9*x**4
+F = 11*x**4
 
 # What does the petal distribution look like?
 
@@ -59,13 +59,13 @@ n = 4
 n4 = round( simpsons_rule( F, a, b, n ), 7 )
 n4
 e4 = round( abs( area - n4 ), 7 )
-'{:.7f}'.format( abs( e4 - area ) )
+'{:.7f}'.format( abs( n4 - area ) )
 
 n = 8
 n8 = round( simpsons_rule( F, a, b, n ), 7 )
 n8
 e8 = abs( area - n8 )
-'{:.7f}'.format( abs( e8 - area ) )
+'{:.7f}'.format( abs( n8 - area ) )
 
 n = 16
 n16 = round( simpsons_rule( F, a, b, n ), 7 )
@@ -82,11 +82,6 @@ e32 =  abs( n32 - area )
 # c
 #  If the error is k/n**p, then the error times n Superscript p should be approximately a constant. Multiply the errors in part b times n**p for p=1, ​2, etc., 
 #  until you find a power p yielding approximately the same answer for all four values of n.
-
-e = symbols( 'e' )
-er = e4*e
-
-solve( er - e8, e )
 
 p = 4
 
