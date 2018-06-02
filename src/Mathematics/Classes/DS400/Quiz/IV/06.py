@@ -53,6 +53,7 @@ plt.show()
 #  Find the exact value of
 a, b = 0, 1
 area = integrate( F, ( x, a, b ) ).evalf()
+area
 
 # Approximate the integral in part a using​ Simpson's rule with n = ​4, ​8, 16, and 32
 n = 4

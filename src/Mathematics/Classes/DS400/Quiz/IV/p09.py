@@ -2,32 +2,34 @@ import numpy as np
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 from matplotlib_venn import venn3, venn3_circles
+from sympy import ( symbols, solve )
 
-# 26 were​ tall;
-# 28 had green​ peas;
-# 37 had smooth​ peas;
+x = symbols( 'x' )
 
-U = 55
+U = 54
 N = 2
 
 C = U - N
 
-A = 7
+A = 6
 
-none = 2
+TGx = 10
+SGx = 18
+TSx = x + A
 
-all = 7
+Tx = 22
+Gx = 29
+Sx = 39
 
-green_smooth = 19 - all
-tall_green = 13 - all
+TS = solve( ( Tx + Gx + Sx - SGx - TGx - TSx + A ) - C, x )[ 0 ]
+TG = TGx - A
+SG = SGx - A
 
-no_peas = ( green_smooth + tall_green )
+T = Tx - TS - TG - A
+G = Gx - SG - TG - A
+S = Sx - SG - TS - A
 
-smooth = 37 - ( green_smooth + all )
-green = 28 - ( green_smooth + tall_green + all  )
-tall = 26 - ( tall_green + all )
-
-v = venn3( subsets=( tall, green, tall_green, smooth, green_smooth, smooth, all ) )
+v = venn3( subsets=( T, G, TG, S, TS, SG, A ) )
 
 v.get_label_by_id('A').set_text('Tall')
 v.get_label_by_id('B').set_text('Green Peas')
@@ -39,9 +41,3 @@ print( 'Plants that are not tall but have smooth AND green peas {0}'.format( SG 
 
 plt.title( "Pea Plants" )
 plt.show()
-
-tall = set( { 26 } )
-green_peas = set( { 28 } )
-smooth_peas = set( { 37 } )
-
-tall 

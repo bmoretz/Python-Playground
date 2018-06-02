@@ -13,16 +13,21 @@ def nCk(n,k):
 
 # The probability that all 42 flights are on time is
 
-flights = 42
-prob = .88
+flights = 37
+prob = .91
 
 all_flights = nCk( flights, flights ) * prob**flights * ( 1 - prob ) ** ( flights - flights )
 round( all_flights, 4 )
 
-# The probability that between 36 and 38 ​flights, inclusive, are on time is:
+# The probability that between 30 and 32 ​flights, inclusive, are on time is:
 
-a = nCk( flights, 36 ) * prob**36 * ( 1 - prob ) ** ( flights - 36 )
-b = nCk( flights, 37 ) * prob**37 * ( 1 - prob ) ** ( flights - 37 )
-c = nCk( flights, 38 ) * prob**38 * ( 1 - prob ) ** ( flights - 38 )
+n_a = 30
+a = nCk( flights, n_a ) * prob**n_a * ( 1 - prob ) ** ( flights - n_a )
+
+n_b = 31
+b = nCk( flights, n_b ) * prob**n_b * ( 1 - prob ) ** ( flights - n_b )
+
+n_c = 32 
+c = nCk( flights, n_c ) * prob**n_c * ( 1 - prob ) ** ( flights - n_c )
 
 round( a + b + c, 4 )

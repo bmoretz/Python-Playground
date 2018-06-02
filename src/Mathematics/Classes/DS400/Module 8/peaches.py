@@ -34,4 +34,4 @@ v.get_label_by_id('C').set_text('Extra Late')
 plt.title( "Peaches" )
 plt.show()
 
-all + late_early + late_extra + early_extra + early + late + extra + 8
+all + late_early + late_extra + early_extra + early + late + extra  + 8

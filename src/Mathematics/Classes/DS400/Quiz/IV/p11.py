@@ -1,21 +1,17 @@
-# Among uses of automated teller machines​ (ATMs), 
-# 93​% use ATMs to withdraw cash and 31​% use them to check their account balance.
-# Suppose that 97​% use ATMs to either withdraw cash or check their account balance​ (or both). 
-# 
-# Given a woman who uses an ATM to check her account​ balance, 
-# what the probability that she also uses an ATM to get​ cash?
+# Suppose that 9​% of a certain batch of calculators have a defective​ case, and that 12​% have defective batteries.​
+#  Also, 4​% have both a defective case and defective batteries. A calculator is selected from the batch at random. 
+#  
+#  Find the probability that the calculator has a good case and good batteries.
 
-# P(C) = 0.93
-pC = .93
+pBC = .09
+pGC = 1 - pBC
 
-# P( B) =0.31
-pB = .31
+pBB = .12
+bGB = 1 - pBB
 
-# P( C or B )
-pBC = .97
+pBCBB = 0.04
 
-# P( C and B ) = P(C) +P (B) - P( C OR B ) = 0.93+0.31 - 0.97 = 0.27
-pB_C = pC + pB - pBC
+# Probabibility of bad case and bad batterise
+pBC_BB = pBC + pBB - pBCBB
 
-# P( C/B ) = P( C and B) / P( B )
-round( pB_C / pB, 3 )
+1 - pBC_BB

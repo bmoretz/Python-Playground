@@ -1,11 +1,11 @@
 from sympy import FiniteSet
 
-O = FiniteSet( 'b', 'o', 'h', 't', 'p' )
-H = FiniteSet( 's', 'p', 'c', 'b', 'e' )
-S = FiniteSet( 'd', 's', 'm', 'e', 'a' )
+O = FiniteSet( 'a', 'p', 'e', 's', 'o' )
+S = FiniteSet( 'h', 'o', 'c', 'a', 'b' )
+H = FiniteSet( 'h', 'b', 'd', 'm', 't' )
 
 U = O.union( H ).union( S )
 
-ho = H.union( O )
+sh = S.union( H )
 
-ho.complement( U )
+sh.complement( U )

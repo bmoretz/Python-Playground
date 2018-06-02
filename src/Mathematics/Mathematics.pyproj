@@ -357,10 +357,10 @@
     <Compile Include="Classes\DS400\Quiz\IV\p09.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\DS400\Quiz\IV\p10.py">
+    <Compile Include="Classes\DS400\Quiz\IV\p11.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\DS400\Quiz\IV\p11.py">
+    <Compile Include="Classes\DS400\Quiz\IV\p12.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\DS400\Quiz\IV\p13.py">
@@ -378,7 +378,7 @@
     <Compile Include="Classes\DS400\Quiz\IV\p18.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\DS400\Quiz\IV\q17.py">
+    <Compile Include="Classes\DS400\Quiz\IV\p17.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DoingMathInPython\ch_01\challenge\even_odd_vm.py" />

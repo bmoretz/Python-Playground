@@ -4,13 +4,13 @@
 
 import math
 
-# There are 3 candidates for one office
-# Therefore ther are 3! ways for ballot
+# There are 6 candidates for one office
+# Therefore ther are 6! ways for ballot
 
-# There are 6 candidates for another office
-# Therefore therare 6! ways for ballot
+# There are 3 candidates for another office
+# Therefore therare 3! ways for ballot
 
 # And also there are 2 offices, 
 # therefore there are 2! ways ballot
 
-math.factorial( 3 ) * math.factorial( 6 ) * math.factorial( 2 )
+math.factorial( 6 ) * math.factorial( 3 ) * math.factorial( 2 )
