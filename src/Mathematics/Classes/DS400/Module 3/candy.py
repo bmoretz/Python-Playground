@@ -28,7 +28,7 @@ candy += .5*x + .75*y <= 180
 candy += .5*x + .25*y <= 108
 
 candy.solve()
-candy.LpStatus[ candy.status ]
+candy.status
 
 for variable in candy.variables():
     print("{0} = {1}".format( variable.name, variable.varValue ))

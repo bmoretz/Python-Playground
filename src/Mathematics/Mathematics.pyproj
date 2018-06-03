@@ -325,6 +325,44 @@
     <Compile Include="Classes\DS400\Module 9\uniform_distribution.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_09.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_10.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_08.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_07.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_06.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_05.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_04.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_03.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_02.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_15.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_16.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DS400\PFinal\Q_20.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_19.py" />
+    <Compile Include="Classes\DS400\PFinal\Q_18.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\DS400\Quiz\III\02.py" />
     <Compile Include="Classes\DS400\Quiz\III\03.py" />
     <Compile Include="Classes\DS400\Quiz\III\06.py" />
