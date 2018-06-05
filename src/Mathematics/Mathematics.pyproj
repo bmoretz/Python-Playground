@@ -508,12 +508,22 @@
     <Compile Include="Classes\Linear Algebra\ch_02\2.6.py" />
     <Compile Include="Classes\Linear Algebra\ch_03\3.1.py" />
     <Compile Include="Classes\Linear Algebra\ReducedRow_EF.py" />
+    <Compile Include="ProgrammingForComputations\ch01\crossing_graphs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgrammingForComputations\ch01\file_handling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgrammingForComputations\ch01\linear_interpolation.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="DoingMathInPython\ch_03\data\data2.txt" />
     <Content Include="DoingMathInPython\ch_03\data\mydata.txt" />
     <Content Include="DoingMathInPython\ch_03\data\scores.txt" />
     <Content Include="DoingMathInPython\ch_05\data\football.txt" />
+    <Content Include="ProgrammingForComputations\ch01\data\points.txt" />
     <Content Include="symbols.txt" />
     <Content Include="Workbooks\Working.xlsx" />
   </ItemGroup>
@@ -576,6 +586,9 @@
     <Folder Include="Classes\Linear Algebra\" />
     <Folder Include="Classes\Linear Algebra\ch_02\" />
     <Folder Include="Classes\Linear Algebra\ch_03\" />
+    <Folder Include="ProgrammingForComputations\" />
+    <Folder Include="ProgrammingForComputations\ch01\" />
+    <Folder Include="ProgrammingForComputations\ch01\data\" />
     <Folder Include="ScientificProgrammingPrimer\" />
     <Folder Include="ScientificProgrammingPrimer\ch_01\" />
     <Folder Include="Workbooks\" />

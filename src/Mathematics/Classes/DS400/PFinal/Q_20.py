@@ -13,9 +13,84 @@ pdf = a * exp( -a*t )
 
 round( mu, 2 )
 
-prob = pdf.subs( { t: 3000 } )
-round( prob, 4 )
-
-a, b = 0, 3000
+a, b = 3, oo
 prob = integrate( pdf, ( t, a, b ) ).doit()
 round( prob, 4 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
