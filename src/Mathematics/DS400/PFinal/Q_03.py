@@ -4,12 +4,12 @@
 #	700 oz of​ stuffing, and 
 #	230 ft of trim to make dogs and dinosaurs.
 
-# A dog uses ( $1.25 )
+# A dog uses ( $1.36 )
 #	1 square of​ felt, 
 #	4 oz of​ stuffing, and 
 #	1 ft of trim. 
 # 
-# A dinosaur uses ( $1.89 ) 
+# A dinosaur uses ( $1.77 ) 
 #	2 squares of​ felt, 
 #	3 oz of​ stuffing, and 
 #	1 ft of trim.
@@ -20,10 +20,9 @@
 import numpy as np
 from numpy import matrix, transpose, dot
 
-dog_cost, dinosaur_cost = 1.25, 1.89
+dog_cost, dinosaur_cost = 1.36, 1.77
 
 n_felt = 300
-
 n_stuff = 700
 n_trim = 230
 
@@ -57,11 +56,11 @@ print( c3 )
 x= [ c1[ 0 ], c2[ 0 ], c3[ 0 ] ]
 y= [ c1[ 1 ], c2[ 1 ], c3[ 1 ] ]
 
-obj= matrix( [ dog_cost, dinosaur_cost ] )
-obj= transpose( obj )
-corners= matrix( [x,y] )
-corners= transpose( corners )
-result= dot( corners,obj )
+obj = matrix( [ dog_cost, dinosaur_cost ] )
+obj = transpose( obj )
+corners = matrix( [x,y] )
+corners = transpose( corners )
+result = dot( corners,obj )
 
-print ("Value of Objective Function at Each Corner Point", result)
-print ("Minimum cost of the company is ", result.min() )
+print( "Value of Objective Function at Each Corner Point", result )
+print( "Minimum cost of the company is ", result.min() )

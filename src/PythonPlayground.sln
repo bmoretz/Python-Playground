@@ -9,6 +9,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataCamp", "DataCamp\DataCa
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mathematics", "Mathematics\Mathematics.pyproj", "{C8318637-8DF5-4B86-9079-F59A32E4F363}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ProgrammingForComputations", "ProgrammingForComputations\ProgrammingForComputations.pyproj", "{A22CCDF3-6ED0-4DCC-A2DF-7A2ED48E600F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DoingMathInPython", "DoingMathInPython\DoingMathInPython.pyproj", "{3EC651C0-1E9B-47BD-819F-1BBAD5907148}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ScientificProgrammingPrimer", "ScientificProgrammingPrimer\ScientificProgrammingPrimer.pyproj", "{99A53961-6BE8-4C6C-8832-F15C45CA6597}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,12 @@ Global
 		{64B7EDD1-0E2C-4383-84E4-0D81FC5EEAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8318637-8DF5-4B86-9079-F59A32E4F363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8318637-8DF5-4B86-9079-F59A32E4F363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22CCDF3-6ED0-4DCC-A2DF-7A2ED48E600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22CCDF3-6ED0-4DCC-A2DF-7A2ED48E600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC651C0-1E9B-47BD-819F-1BBAD5907148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC651C0-1E9B-47BD-819F-1BBAD5907148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A53961-6BE8-4C6C-8832-F15C45CA6597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A53961-6BE8-4C6C-8832-F15C45CA6597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

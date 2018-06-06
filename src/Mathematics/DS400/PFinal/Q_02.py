@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = symbols( 'x', positive = True ) # 0 <= x
-C = x + 4467
+C = x + 3525
 R = 4*x
 
 P = R - C
