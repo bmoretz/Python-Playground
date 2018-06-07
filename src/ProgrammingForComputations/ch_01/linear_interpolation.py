@@ -3,7 +3,7 @@
 # Linear Interpolation
 
 # Some measurements yi, i = 0, ... N (given below) of a quantity y have been collected regularly, once every minute, at times ti = i, 0, 1, ... N.
-# We want to fine the value y in between the measurements, e.g., at t = 3.2 min. Computing such y values is called interpolation.
+# We want to find the value y in between the measurements, e.g., at t = 3.2 min. Computing such y values is called interpolation.
 
 # Let your programs use linear interpolation to compute y between two consecutive measurements:
 
@@ -14,3 +14,4 @@
 # Compute the y value by inserting the user's time values in the expression for the straight line.
 
 # 
+

@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 # The base case is N = 400 and ɛ = 0.01.
 
 g_xlim = [ -4, 4 ]
-g_iter = 1000
 
 def plot_fun( fun, name, col ):
 	x_vals = np.linspace( g_xlim[0], g_xlim[1], g_iter, endpoint=True )
@@ -31,4 +30,17 @@ def g(x):
 plot_fun( f, 'x', 'B' )
 plot_fun( g, 'x²', 'G' )
 
+epsilon = 0.0001
+N = 40000
+
+v = []
+
+for x in np.linspace( g_xlim[ 0 ], g_xlim[ 1 ], N ):
+	delta = abs( f( x ) - g( x ) )
+
+	if delta <= epsilon:
+		v.append( x )
+		plt.scatter( x, f(x) )
+
+plt.legend()
 plt.show()

@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>99a53961-6be8-4c6c-8832-f15c45ca6597</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ScientificProgrammingPrimer.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,24 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ScientificProgrammingPrimer.py" />
+    <Folder Include="ch_01\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ch_01\egg.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_01\formulas_shapes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_01\gaussian.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_01\interest_rate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ch_01\kick.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
