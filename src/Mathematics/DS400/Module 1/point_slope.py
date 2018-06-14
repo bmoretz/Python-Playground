@@ -1,9 +1,9 @@
 import math
 from sympy import symbols, solve, pprint
 
-p1 = [ 1, 6 ]
-p2 = [ ]
-m = -9
+p1 = [ 0, 0 ]
+p2 = [ 6, 504 ]
+m = None
 
 m1 = ( p2[ 1 ] - p1[ 1 ] )
 m2 = ( p2[ 0 ] - p1[ 0 ] )

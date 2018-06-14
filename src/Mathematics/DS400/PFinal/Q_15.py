@@ -3,7 +3,7 @@ from sympy import symbols, solve, diff, pprint, integrate
 # After a long​ study, tree scientists conclude that a eucalyptus tree will grow at the rate of
 
 t = symbols( 't' )
-R = 0.6 + 4 / ( t + 3 ) **3
+R = 0.5 + 4 / ( t + 1 ) **3
 #  feet per​ year, where t is the time​ (in years).
 pprint( R )
 

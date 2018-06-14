@@ -5,7 +5,7 @@ from sympy import symbols, solve, diff
 
 x, y = symbols( 'x y', positive = True )
 
-A = 2*x + 4*y - 976
+A = 2*x + 4*y - 904
 
 y_eq = solve( A, y )[ 0 ]
 

@@ -13,7 +13,7 @@ def plot_fun( fun, name, col ):
 # The equation:
 
 initial_investment = 4000
-compounding_rate = 4.0 / 100
+compounding_rate = 3.5 / 100
 
 # gives the balance after t years of an initial investment of $ dollars which pays ​% compounded continuously.  
 
@@ -23,7 +23,8 @@ A = initial_investment * exp( compounding_rate * t )
 dA_dt = diff( A, t )
 pprint( dA_dt )
 
-fv_12 = dA_dt.subs( { t: 8 } )
+# A'( 6 ) = 
+fv_12 = dA_dt.subs( { t: 6 } )
 round( fv_12 )
 
 lam_g = lambdify( t, A, np )
@@ -32,8 +33,8 @@ plot_fun( lam_g, 'A', 'G' )
 lam_dg = lambdify( t, dA_dt, np )
 plot_fun( lam_dg, 'dA/dt', 'B' )
 
+delta = A.subs( { t: 7 } ) - A.subs( { t: 6 } )
+round( delta, 2 )
+
 plt.legend()
 plt.show()
-
-delta = A.subs( { t: 9 } ) - A.subs( { t: 8 } )
-round( delta, 2 )

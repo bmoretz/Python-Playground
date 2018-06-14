@@ -12,7 +12,7 @@ P = integrate( dP, t )
 profit = integrate( dP, [ t, 0, 3 ] ).evalf()
 round( profit * 1000 )
 
-# The profit in the fourth year of operation is" (in thousands)
+# The profit in the fourth year of operation is: (in thousands)
 profit = integrate( dP, [ t, 3, 4 ] ).evalf()
 round( profit * 1000 )
 

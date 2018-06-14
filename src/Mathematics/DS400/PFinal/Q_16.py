@@ -4,7 +4,7 @@ from sympy import symbols, solve, diff, pprint, integrate
 multiplier = 1000000
 
 x = symbols( 'x' )
-F = 39.2 + 2.14 *x - 0.795*x**2
+F = 39 + 2.11*x - 0.81*x**2
 
 # where x varies from 0 to 9 decades. 
 # The population of a given age group can be found by integrating this function over the interval for that age group.
@@ -16,6 +16,6 @@ population = round( integrate( F, ( x, a, b ) ) )
 # b
 print( 'The total number of people in this area aged 0 to 90 was about {0} million in 2000.'.format( population ) )
 
-# Find the number of people alive in 2000 that were born in the seventies​, that​ is, those in the range of 2 to 3 decades in 2000
-a, b = 3, 4
+# Find the number of people alive in 2000 that were born in the seventies​, that​ is, those in the range of 4 to 5 decades in 2000
+a, b = 4, 5
 round( integrate( F, ( x, a, b ) ) )

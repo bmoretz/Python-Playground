@@ -36,6 +36,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calculus\Differential\ch_07\wire_cutting_minima.py" />
+    <Compile Include="DS400\Final\algorithm_complexity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DS400\Final\increasing_decreasing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DS400\Final\q_10.py" />
+    <Compile Include="DS400\Final\q_09.py" />
+    <Compile Include="DS400\Final\q_08.py" />
+    <Compile Include="DS400\Final\q_07.py" />
+    <Compile Include="DS400\Final\q_06.py" />
+    <Compile Include="DS400\Final\q_05.py" />
+    <Compile Include="DS400\Final\q_04.py" />
+    <Compile Include="DS400\Final\q_03.py" />
+    <Compile Include="DS400\Final\q_02.py" />
+    <Compile Include="DS400\Final\q_01.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DS400\Module 7\area_between_curves.py">
       <SubType>Code</SubType>
     </Compile>

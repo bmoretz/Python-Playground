@@ -19,18 +19,17 @@ from pulp import *
 
 model = LpProblem( "Toy Production Problem", LpMinimize )
 
-x1 = LpVariable( "x1", 0 ) # Bluegrass
-x2 = LpVariable( "x2", 0 ) # Rye
-x3 = LpVariable( "x3", 0 ) # Bermuda
+x1 = LpVariable( "x1", 0 ) # Classical
+x2 = LpVariable( "x2", 0 ) # Jazz
+x3 = LpVariable( "x3", 0 ) # Rock
 
-model += .09*x1 + .11*x2 + .03*x3
+model += x1 + x2 + x3
 
 # Constraints
 
-model += x1 >= .25 * ( x1 + x2 + x3 )
-model += x3 <= 2/3*x2
-
-model += x1 + x2 + x3 >= 6000
+model += x1 + x2 <= 11
+model += x3 <= 7
+model += 2*x3 > x1
 
 model.solve()
 model.status

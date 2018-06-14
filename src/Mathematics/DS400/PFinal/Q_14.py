@@ -4,7 +4,7 @@
 
 from sympy import symbols, solve, diff, pprint
 
-volume = 6912
+volume = 4000
 
 s, h = symbols( 's, h' )
 A = s**2 + 4*s*h
