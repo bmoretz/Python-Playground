@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 # The base case is N = 400 and ɛ = 0.01.
 
 g_xlim = [ -4, 4 ]
+g_iter = 1000
 
 def plot_fun( fun, name, col ):
 	x_vals = np.linspace( g_xlim[0], g_xlim[1], g_iter, endpoint=True )
