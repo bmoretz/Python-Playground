@@ -38,3 +38,4 @@ for variable in model.variables():
     print("{0} = {1}".format( variable.name, variable.varValue ) )
 
 print( 'Optimal Sln: {0}'.format( pulp.value( model.objective ) ) )
+

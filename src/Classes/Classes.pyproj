@@ -43,6 +43,27 @@
     <Folder Include="MSDS400\Quiz\III\" />
     <Folder Include="MSDS400\Quiz\IV\" />
     <Folder Include="MSDS420\" />
+    <Folder Include="MSDS420\Module_01\" />
+    <Folder Include="MSDS420\Module_02\" />
+    <Folder Include="MSDS420\Module_03\" />
+    <Folder Include="MSDS420\Module_04\" />
+    <Folder Include="MSDS420\Module_05\" />
+    <Folder Include="MSDS420\Module_06\" />
+    <Folder Include="MSDS420\Module_07\" />
+    <Folder Include="MSDS420\Module_08\" />
+    <Folder Include="MSDS420\Module_09\" />
+    <Folder Include="MSDS422\" />
+    <Folder Include="MSDS422\Module_01\" />
+    <Folder Include="MSDS422\Module_02\" />
+    <Folder Include="MSDS422\Module_03\" />
+    <Folder Include="MSDS422\Module_04\" />
+    <Folder Include="MSDS422\Module_05\" />
+    <Folder Include="MSDS422\Module_06\" />
+    <Folder Include="MSDS422\Module_07\" />
+    <Folder Include="MSDS422\Module_08\" />
+    <Folder Include="MSDS422\Module_09\" />
+    <Folder Include="MSDS422\Practice\" />
+    <Folder Include="MSDS422\Practice\data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MSDS400\Final\algorithm_complexity.py" />

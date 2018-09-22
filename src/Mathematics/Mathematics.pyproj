@@ -36,9 +36,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calculus\Differential\ch_07\wire_cutting_minima.py" />
-    <Compile Include="MSDS400\Final\algorithm_complexity.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="DS400\Final\q_10.py" />
     <Compile Include="DS400\Final\q_09.py" />
     <Compile Include="DS400\Final\q_08.py" />
@@ -48,9 +45,6 @@
     <Compile Include="DS400\Final\q_04.py" />
     <Compile Include="DS400\Final\q_03.py" />
     <Compile Include="DS400\Final\q_02.py" />
-    <Compile Include="DS400\Final\q_01.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="DS400\Module 7\area_between_curves.py">
       <SubType>Code</SubType>
     </Compile>
@@ -698,7 +692,6 @@
     <Folder Include="MSDS400\Quiz\" />
     <Folder Include="MSDS400\Quiz\III\" />
     <Folder Include="MSDS400\Quiz\IV\" />
-    <Folder Include="MSDS420\" />
     <Folder Include="Workbooks\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
