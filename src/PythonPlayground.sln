@@ -17,6 +17,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ScientificProgrammingPrimer
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Classes", "Classes\Classes.pyproj", "{836C2102-C770-49D8-800B-1873C2044D2D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntroToMachineLearning", "IntroToMachineLearning\IntroToMachineLearning.pyproj", "{55218F9F-2521-46ED-83B5-2C2E0002D5EF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonForDataAnalysis", "PythonForDataAnalysis\PythonForDataAnalysis.pyproj", "{AC39CA82-9A9C-4E45-8AA5-409BB69F45D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{99A53961-6BE8-4C6C-8832-F15C45CA6597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836C2102-C770-49D8-800B-1873C2044D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{836C2102-C770-49D8-800B-1873C2044D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55218F9F-2521-46ED-83B5-2C2E0002D5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55218F9F-2521-46ED-83B5-2C2E0002D5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC39CA82-9A9C-4E45-8AA5-409BB69F45D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC39CA82-9A9C-4E45-8AA5-409BB69F45D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

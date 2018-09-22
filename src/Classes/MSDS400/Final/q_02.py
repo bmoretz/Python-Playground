@@ -39,3 +39,4 @@ for variable in model.variables():
 
 print( 'Optimal Sln: {0}'.format( pulp.value( model.objective ) ) )
 
+import mglearn
