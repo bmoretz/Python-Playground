@@ -1,0 +1,279 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>836c2102-c770-49d8-800b-1873c2044d2d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Classes.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Classes</Name>
+    <RootNamespace>Classes</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="MSDS400\" />
+    <Folder Include="MSDS400\Final\" />
+    <Folder Include="MSDS400\Module 1\" />
+    <Folder Include="MSDS400\Module 2\" />
+    <Folder Include="MSDS400\Module 2\Python\" />
+    <Folder Include="MSDS400\Module 3\" />
+    <Folder Include="MSDS400\Module 4\" />
+    <Folder Include="MSDS400\Module 5\" />
+    <Folder Include="MSDS400\Module 5\practice\" />
+    <Folder Include="MSDS400\Module 6\" />
+    <Folder Include="MSDS400\Module 6\practice\" />
+    <Folder Include="MSDS400\Module 7\" />
+    <Folder Include="MSDS400\Module 7\practice\" />
+    <Folder Include="MSDS400\Module 8\" />
+    <Folder Include="MSDS400\Module 8\practice\" />
+    <Folder Include="MSDS400\Module 9\" />
+    <Folder Include="MSDS400\Module 9\practice\" />
+    <Folder Include="MSDS400\PFinal\" />
+    <Folder Include="MSDS400\Quiz\" />
+    <Folder Include="MSDS400\Quiz\III\" />
+    <Folder Include="MSDS400\Quiz\IV\" />
+    <Folder Include="MSDS420\" />
+    <Folder Include="MSDS420\Module_01\" />
+    <Folder Include="MSDS420\Module_02\" />
+    <Folder Include="MSDS420\Module_03\" />
+    <Folder Include="MSDS420\Module_04\" />
+    <Folder Include="MSDS420\Module_05\" />
+    <Folder Include="MSDS420\Module_06\" />
+    <Folder Include="MSDS420\Module_07\" />
+    <Folder Include="MSDS420\Module_08\" />
+    <Folder Include="MSDS420\Module_09\" />
+    <Folder Include="MSDS422\" />
+    <Folder Include="MSDS422\Module_01\" />
+    <Folder Include="MSDS422\Module_02\" />
+    <Folder Include="MSDS422\Module_03\" />
+    <Folder Include="MSDS422\Module_04\" />
+    <Folder Include="MSDS422\Module_05\" />
+    <Folder Include="MSDS422\Module_06\" />
+    <Folder Include="MSDS422\Module_07\" />
+    <Folder Include="MSDS422\Module_08\" />
+    <Folder Include="MSDS422\Module_09\" />
+    <Folder Include="MSDS422\Practice\" />
+    <Folder Include="MSDS422\Practice\data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MSDS400\Final\algorithm_complexity.py" />
+    <Compile Include="MSDS400\Final\increasing_decreasing.py" />
+    <Compile Include="MSDS400\Final\q_01.py" />
+    <Compile Include="MSDS400\Final\q_02.py" />
+    <Compile Include="MSDS400\Final\q_03.py" />
+    <Compile Include="MSDS400\Final\q_04.py" />
+    <Compile Include="MSDS400\Final\q_05.py" />
+    <Compile Include="MSDS400\Final\q_06.py" />
+    <Compile Include="MSDS400\Final\q_07.py" />
+    <Compile Include="MSDS400\Final\q_08.py" />
+    <Compile Include="MSDS400\Final\q_09.py" />
+    <Compile Include="MSDS400\Final\q_10.py" />
+    <Compile Include="MSDS400\Module 1\1.1.py" />
+    <Compile Include="MSDS400\Module 1\1.2.0.py" />
+    <Compile Include="MSDS400\Module 1\1.2.1.py" />
+    <Compile Include="MSDS400\Module 1\1.2.2.py" />
+    <Compile Include="MSDS400\Module 1\1.3.0.py" />
+    <Compile Include="MSDS400\Module 1\1.3.1.py" />
+    <Compile Include="MSDS400\Module 1\1.4.0.py" />
+    <Compile Include="MSDS400\Module 1\1.4.1.py" />
+    <Compile Include="MSDS400\Module 1\1.5.0.py" />
+    <Compile Include="MSDS400\Module 1\1.5.1.py" />
+    <Compile Include="MSDS400\Module 1\point_slope.py" />
+    <Compile Include="MSDS400\Module 2\animal_food.py" />
+    <Compile Include="MSDS400\Module 2\bank.py" />
+    <Compile Include="MSDS400\Module 2\beer.py" />
+    <Compile Include="MSDS400\Module 2\gas_mix.py" />
+    <Compile Include="MSDS400\Module 2\land.py" />
+    <Compile Include="MSDS400\Module 2\linear_solver.py" />
+    <Compile Include="MSDS400\Module 2\m2_discussion.py" />
+    <Compile Include="MSDS400\Module 2\minimize.py" />
+    <Compile Include="MSDS400\Module 2\port_risk.py" />
+    <Compile Include="MSDS400\Module 2\pulp_example.py" />
+    <Compile Include="MSDS400\Module 2\Python\E2.1.py" />
+    <Compile Include="MSDS400\Module 2\Python\P2.1.py" />
+    <Compile Include="MSDS400\Module 2\shipping.py" />
+    <Compile Include="MSDS400\Module 2\simplex_matrix.py" />
+    <Compile Include="MSDS400\Module 3\algea.py" />
+    <Compile Include="MSDS400\Module 3\bird_sighting.py" />
+    <Compile Include="MSDS400\Module 3\candy.py" />
+    <Compile Include="MSDS400\Module 3\diet.py" />
+    <Compile Include="MSDS400\Module 3\electronics.py" />
+    <Compile Include="MSDS400\Module 3\plant_food.py" />
+    <Compile Include="MSDS400\Module 3\supplies.py" />
+    <Compile Include="MSDS400\Module 3\temp.py" />
+    <Compile Include="MSDS400\Module 3\workout.py" />
+    <Compile Include="MSDS400\Module 4\c_cycle.py" />
+    <Compile Include="MSDS400\Module 4\degree_sequence.py" />
+    <Compile Include="MSDS400\Module 4\from_matrix.py" />
+    <Compile Include="MSDS400\Module 4\graph.py" />
+    <Compile Include="MSDS400\Module 4\k_complete.py" />
+    <Compile Include="MSDS400\Module 4\k_lollipop.py" />
+    <Compile Include="MSDS400\Module 4\peterson_graph.py" />
+    <Compile Include="MSDS400\Module 4\q_hypercube.py" />
+    <Compile Include="MSDS400\Module 4\weighted_graph.py" />
+    <Compile Include="MSDS400\Module 4\w_wheel.py" />
+    <Compile Include="MSDS400\Module 5\bmi.py" />
+    <Compile Include="MSDS400\Module 5\Distance.py" />
+    <Compile Include="MSDS400\Module 5\ex_11.1.py" />
+    <Compile Include="MSDS400\Module 5\internet_growth.py" />
+    <Compile Include="MSDS400\Module 5\Limits.py" />
+    <Compile Include="MSDS400\Module 5\marginal_avg_cost.py" />
+    <Compile Include="MSDS400\Module 5\marginal_cost_profit.py" />
+    <Compile Include="MSDS400\Module 5\marginal_revenue.py" />
+    <Compile Include="MSDS400\Module 5\mineral_use.py" />
+    <Compile Include="MSDS400\Module 5\pollution.py" />
+    <Compile Include="MSDS400\Module 5\practice\ex_1.py" />
+    <Compile Include="MSDS400\Module 5\practice\ex_2.py" />
+    <Compile Include="MSDS400\Module 5\practice\ex_3.py" />
+    <Compile Include="MSDS400\Module 5\practice\ex_4.py" />
+    <Compile Include="MSDS400\Module 5\practice\practice_1.py" />
+    <Compile Include="MSDS400\Module 5\practice\practice_2.py" />
+    <Compile Include="MSDS400\Module 5\rate_of_change.py" />
+    <Compile Include="MSDS400\Module 5\sales_over_time.py" />
+    <Compile Include="MSDS400\Module 5\slope_tangent.py" />
+    <Compile Include="MSDS400\Module 5\traffic.py" />
+    <Compile Include="MSDS400\Module 5\traffic_flow.py" />
+    <Compile Include="MSDS400\Module 6\average_cost.py" />
+    <Compile Include="MSDS400\Module 6\average_cost_2.py" />
+    <Compile Include="MSDS400\Module 6\blood_concentration.py" />
+    <Compile Include="MSDS400\Module 6\box_maximize.py" />
+    <Compile Include="MSDS400\Module 6\CQLAppDer6.py" />
+    <Compile Include="MSDS400\Module 6\CQLAppDer8.py" />
+    <Compile Include="MSDS400\Module 6\deminishing_returns.py" />
+    <Compile Include="MSDS400\Module 6\detailed_graph.py" />
+    <Compile Include="MSDS400\Module 6\epidemic.py" />
+    <Compile Include="MSDS400\Module 6\m6_discussion.py" />
+    <Compile Include="MSDS400\Module 6\minimize.py" />
+    <Compile Include="MSDS400\Module 6\practice\practice_1.py" />
+    <Compile Include="MSDS400\Module 6\practice\practice_2.py" />
+    <Compile Include="MSDS400\Module 6\profit_matplotlib.py" />
+    <Compile Include="MSDS400\Module 6\profit_sympy.py" />
+    <Compile Include="MSDS400\Module 6\revenue_optimization.py" />
+    <Compile Include="MSDS400\Module 6\salmon_population.py" />
+    <Compile Include="MSDS400\Module 6\standard_normal.py" />
+    <Compile Include="MSDS400\Module 6\training.py" />
+    <Compile Include="MSDS400\Module 6\weed_killer.py" />
+    <Compile Include="MSDS400\Module 6\wire_cutting.py" />
+    <Compile Include="MSDS400\Module 7\area_between_curves.py" />
+    <Compile Include="MSDS400\Module 7\drug_reaction.py" />
+    <Compile Include="MSDS400\Module 7\drug_reaction_approx.py" />
+    <Compile Include="MSDS400\Module 7\epidemic.py" />
+    <Compile Include="MSDS400\Module 7\machine_cost.py" />
+    <Compile Include="MSDS400\Module 7\marginal_cost.py" />
+    <Compile Include="MSDS400\Module 7\marginal_revenue.py" />
+    <Compile Include="MSDS400\Module 7\polution.py" />
+    <Compile Include="MSDS400\Module 7\population.py" />
+    <Compile Include="MSDS400\Module 7\profit.py" />
+    <Compile Include="MSDS400\Module 7\rate_of_change.py" />
+    <Compile Include="MSDS400\Module 7\simpsons_rule.py" />
+    <Compile Include="MSDS400\Module 7\study_results.py" />
+    <Compile Include="MSDS400\Module 7\supply_demand.py" />
+    <Compile Include="MSDS400\Module 7\trapezoidal_rule.py" />
+    <Compile Include="MSDS400\Module 8\antibotics.py" />
+    <Compile Include="MSDS400\Module 8\army.py" />
+    <Compile Include="MSDS400\Module 8\balances.py" />
+    <Compile Include="MSDS400\Module 8\ballot.py" />
+    <Compile Include="MSDS400\Module 8\breast-cancer.py" />
+    <Compile Include="MSDS400\Module 8\choose.py" />
+    <Compile Include="MSDS400\Module 8\earthquake.py" />
+    <Compile Include="MSDS400\Module 8\earth_quake.py" />
+    <Compile Include="MSDS400\Module 8\expected_value.py" />
+    <Compile Include="MSDS400\Module 8\flights.py" />
+    <Compile Include="MSDS400\Module 8\hepatitis.py" />
+    <Compile Include="MSDS400\Module 8\legislative.py" />
+    <Compile Include="MSDS400\Module 8\orchids.py" />
+    <Compile Include="MSDS400\Module 8\peaches.py" />
+    <Compile Include="MSDS400\Module 8\practice\Module 8 Practice 1.py" />
+    <Compile Include="MSDS400\Module 8\practice\Module 8 Practice 2.py" />
+    <Compile Include="MSDS400\Module 8\radio_stations.py" />
+    <Compile Include="MSDS400\Module 8\seatbelts.py" />
+    <Compile Include="MSDS400\Module 8\shipement.py" />
+    <Compile Include="MSDS400\Module 8\subsets.py" />
+    <Compile Include="MSDS400\Module 8\workers.py" />
+    <Compile Include="MSDS400\Module 9\blood_clotting.py" />
+    <Compile Include="MSDS400\Module 9\CQLProb1.py" />
+    <Compile Include="MSDS400\Module 9\density_function.py" />
+    <Compile Include="MSDS400\Module 9\driver_age.py" />
+    <Compile Include="MSDS400\Module 9\earth_quakes.py" />
+    <Compile Include="MSDS400\Module 9\expected_value.py" />
+    <Compile Include="MSDS400\Module 9\exponental_distribution.py" />
+    <Compile Include="MSDS400\Module 9\insect_life.py" />
+    <Compile Include="MSDS400\Module 9\life_expectancy.py" />
+    <Compile Include="MSDS400\Module 9\life_span.py" />
+    <Compile Include="MSDS400\Module 9\petal_length.py" />
+    <Compile Include="MSDS400\Module 9\petal_length_2.py" />
+    <Compile Include="MSDS400\Module 9\piecewise_ev.py" />
+    <Compile Include="MSDS400\Module 9\practice\Module 9 Practice 1.py" />
+    <Compile Include="MSDS400\Module 9\practice\Module 9 Practice 2.py" />
+    <Compile Include="MSDS400\Module 9\rainfall_3.py" />
+    <Compile Include="MSDS400\Module 9\rain_fall.py" />
+    <Compile Include="MSDS400\Module 9\rain_fall_2.py" />
+    <Compile Include="MSDS400\Module 9\refund_cost.py" />
+    <Compile Include="MSDS400\Module 9\uniform_distribution.py" />
+    <Compile Include="MSDS400\PFinal\Q_01.py" />
+    <Compile Include="MSDS400\PFinal\Q_02.py" />
+    <Compile Include="MSDS400\PFinal\Q_03.py" />
+    <Compile Include="MSDS400\PFinal\Q_04.py" />
+    <Compile Include="MSDS400\PFinal\Q_05.py" />
+    <Compile Include="MSDS400\PFinal\Q_06.py" />
+    <Compile Include="MSDS400\PFinal\Q_07.py" />
+    <Compile Include="MSDS400\PFinal\Q_08.py" />
+    <Compile Include="MSDS400\PFinal\Q_09.py" />
+    <Compile Include="MSDS400\PFinal\Q_10.py" />
+    <Compile Include="MSDS400\PFinal\Q_11.py" />
+    <Compile Include="MSDS400\PFinal\Q_12.py" />
+    <Compile Include="MSDS400\PFinal\Q_13.py" />
+    <Compile Include="MSDS400\PFinal\Q_14.py" />
+    <Compile Include="MSDS400\PFinal\Q_15.py" />
+    <Compile Include="MSDS400\PFinal\Q_16.py" />
+    <Compile Include="MSDS400\PFinal\Q_17.py" />
+    <Compile Include="MSDS400\PFinal\Q_18.py" />
+    <Compile Include="MSDS400\PFinal\Q_19.py" />
+    <Compile Include="MSDS400\PFinal\Q_20.py" />
+    <Compile Include="MSDS400\Quiz\III\02.py" />
+    <Compile Include="MSDS400\Quiz\III\03.py" />
+    <Compile Include="MSDS400\Quiz\III\06.py" />
+    <Compile Include="MSDS400\Quiz\III\07.py" />
+    <Compile Include="MSDS400\Quiz\III\09.py" />
+    <Compile Include="MSDS400\Quiz\III\10.py" />
+    <Compile Include="MSDS400\Quiz\III\11.py" />
+    <Compile Include="MSDS400\Quiz\III\12.py" />
+    <Compile Include="MSDS400\Quiz\III\13.py" />
+    <Compile Include="MSDS400\Quiz\III\15.py" />
+    <Compile Include="MSDS400\Quiz\III\16.py" />
+    <Compile Include="MSDS400\Quiz\IV\01.py" />
+    <Compile Include="MSDS400\Quiz\IV\04.py" />
+    <Compile Include="MSDS400\Quiz\IV\05.py" />
+    <Compile Include="MSDS400\Quiz\IV\06.py" />
+    <Compile Include="MSDS400\Quiz\IV\p07.py" />
+    <Compile Include="MSDS400\Quiz\IV\p08.py" />
+    <Compile Include="MSDS400\Quiz\IV\p09.py" />
+    <Compile Include="MSDS400\Quiz\IV\p11.py" />
+    <Compile Include="MSDS400\Quiz\IV\p12.py" />
+    <Compile Include="MSDS400\Quiz\IV\p13.py" />
+    <Compile Include="MSDS400\Quiz\IV\p14.py" />
+    <Compile Include="MSDS400\Quiz\IV\p15.py" />
+    <Compile Include="MSDS400\Quiz\IV\p16.py" />
+    <Compile Include="MSDS400\Quiz\IV\p17.py" />
+    <Compile Include="MSDS400\Quiz\IV\p18.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

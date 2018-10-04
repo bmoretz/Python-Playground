@@ -62,3 +62,5 @@ data/~\$Temperature\.xlsx
 src/\.vs/PythonPlayground/v15/
 
 src/Mathematics/\.vs/Mathematics/v15/
+
+*.pdf
