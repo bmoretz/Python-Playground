@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Classes</Name>
     <RootNamespace>Classes</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,6 +55,7 @@
     <Folder Include="MSDS420\Module_09\" />
     <Folder Include="MSDS422\" />
     <Folder Include="MSDS422\Module_01\" />
+    <Folder Include="MSDS422\Module_01\data\" />
     <Folder Include="MSDS422\Module_02\" />
     <Folder Include="MSDS422\Module_03\" />
     <Folder Include="MSDS422\Module_04\" />
@@ -269,6 +271,10 @@
     <Compile Include="MSDS422\Module_01\mspa-software-case-jump-start-v005.py" />
     <Compile Include="MSDS422\Module_02\jump-start-bank-v001.py" />
     <Compile Include="MSDS422\Module_02\naive-bayes-training-example-v001.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MSDS422\Module_01\data\mspa-survey-data.csv" />
+    <Content Include="MSDS422\Module_01\mspa-survey-data.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
