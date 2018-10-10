@@ -1,0 +1,13 @@
+Patient,A,B,C,Disease
+Alice,0,0,0,YES
+Butch,0,0,1,NO
+Carie,0,1,1,NO
+Donald,0,1,1,NO
+Henry,0,0,1,YES
+Joan,1,0,1,YES
+Ken,1,0,1,NO
+Larry,1,0,0,NO
+Mary,1,1,1,YES
+Paul,1,0,1,YES
+Walter,0,1,0,
+Susan,1,,0,

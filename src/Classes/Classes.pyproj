@@ -266,6 +266,9 @@
     <Compile Include="MSDS400\Quiz\IV\p16.py" />
     <Compile Include="MSDS400\Quiz\IV\p17.py" />
     <Compile Include="MSDS400\Quiz\IV\p18.py" />
+    <Compile Include="MSDS422\Module_01\mspa-software-case-jump-start-v005.py" />
+    <Compile Include="MSDS422\Module_02\jump-start-bank-v001.py" />
+    <Compile Include="MSDS422\Module_02\naive-bayes-training-example-v001.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
