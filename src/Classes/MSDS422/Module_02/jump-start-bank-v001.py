@@ -24,9 +24,6 @@
 RANDOM_SEED = 1
 
 # import base packages into the namespace for this program
-import numpy as np
-import pandas as pd
-
 
 import os
 import numpy as np

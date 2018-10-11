@@ -1,0 +1,240 @@
+Python 3.6.1 |Anaconda custom (x86_64)| (default, May 11 2017, 13:04:09)
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.3.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+Restarting kernel... 
+
+
+ 
+
+runfile('/Users/poweruser/Desktop/bank-solution-v002/jump-start-bank-v002-plus-solution.py', wdir='/Users/poweruser/Desktop/bank-solution-v002')
+(4521, 17)
+(4521, 17)
+(4521, 4)
+
+Data dimensions: (4521, 4)
+
+Fold index: 0 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4068, 3)
+X_test: (453, 3)
+y_train: (4068,)
+y_test: (453,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.587852206273
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.587852206273
+
+Fold index: 1 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.633727778968
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.633727778968
+
+Fold index: 2 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.657535445475
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.657535445475
+
+Fold index: 3 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.637387957664
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.635564895934
+
+Fold index: 4 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.574399396252
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.574399396252
+
+Fold index: 5 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.574683995015
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.584238324135
+
+Fold index: 6 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.562511632235
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.562511632235
+
+Fold index: 7 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.73114416221
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.73114416221
+
+Fold index: 8 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.573532888826
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.573532888826
+
+Fold index: 9 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (4069, 3)
+X_test: (452, 3)
+y_train: (4069,)
+y_test: (452,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.577826886049
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.576820409592
+
+----------------------------------------------
+Average results from 10-fold cross-validation
+
+Method                 Area under ROC Curve
+Naive_Bayes            0.611060
+Logistic_Regression    0.611733
+dtype: float64
+
+
+Logistic regression model predictions for test cases:
+   default  housing  loan  predict_NO  predict_YES
+0      1.0      1.0   1.0    0.945729     0.054271
+1      1.0      1.0   0.0    0.892349     0.107651
+2      1.0      0.0   1.0    0.900786     0.099214
+3      1.0      0.0   0.0    0.811988     0.188012
+4      0.0      1.0   1.0    0.953277     0.046723
+5      0.0      1.0   0.0    0.906588     0.093412
+6      0.0      0.0   1.0    0.914016     0.085984
+7      0.0      0.0   0.0    0.834890     0.165110
