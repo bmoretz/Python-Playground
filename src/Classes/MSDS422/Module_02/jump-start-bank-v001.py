@@ -32,19 +32,20 @@ import pandas as pd
 # BernoulliNB is designed for binary/boolean features
 from sklearn.naive_bayes import BernoulliNB
 
-path_home = "C:\\Projects\\"
-path_work = "E:\\GitHub\\"
+PATH_HOME = "C:\\Projects\\"
+PATH_WORK = "E:\\GitHub\\"
+DATA_FILE = "bank.csv"
 
-def get_data_path():
+def get_data_file( path_home = PATH_HOME, path_work = PATH_WORK, data_file = DATA_FILE):
 	path_root = ( os.path.exists( path_home ) and path_home ) or path_work
 	project_path = os.path.join( path_root, "Python-Playground\src\Classes\MSDS422\Module_02" )
-	return os.path.join( project_path, "data")
+	return os.path.join( project_path, "data", data_file )
 
 # use the full data set after development is complete with the smaller data set
 # bank = pd.read_csv('bank-full.csv', sep = ';')  # start with smaller data set
 
 # initial work with the smaller data set
-bank = pd.read_csv(os.path.join(get_data_path(), 'bank.csv'), sep = ';')  # start with smaller data set
+bank = pd.read_csv(get_data_file(), sep = ';')  # start with smaller data set
 # examine the shape of original input data
 print(bank.shape)
 
