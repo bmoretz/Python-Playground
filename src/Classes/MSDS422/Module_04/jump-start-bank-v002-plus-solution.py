@@ -134,7 +134,9 @@ for train_index, test_index in kf.split(model_data):
         # evaluate on the test set for this fold
         y_test_predict = clf.predict_proba(X_test)
         fold_method_result = roc_auc_score(y_test, y_test_predict[:,1]) 
-        print('Area under ROC curve:', fold_method_result)
+        print('Area under ROC curve:', fold_method_result)3
+		.
+
         cv_results[index_for_fold, index_for_method] = fold_method_result
         index_for_method += 1
   

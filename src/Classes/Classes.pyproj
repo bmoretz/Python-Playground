@@ -58,6 +58,7 @@
     <Folder Include="MSDS422\Module_01\data\" />
     <Folder Include="MSDS422\Module_02\" />
     <Folder Include="MSDS422\Module_03\" />
+    <Folder Include="MSDS422\Module_03\datasets\" />
     <Folder Include="MSDS422\Module_04\" />
     <Folder Include="MSDS422\Module_05\" />
     <Folder Include="MSDS422\Module_06\" />
@@ -271,10 +272,13 @@
     <Compile Include="MSDS422\Module_01\mspa-software-case-jump-start-v005.py" />
     <Compile Include="MSDS422\Module_02\jump-start-bank-v001.py" />
     <Compile Include="MSDS422\Module_02\naive-bayes-training-example-v001.py" />
+    <Compile Include="MSDS422\Module_03\jump-start-boston-housing-v001.py" />
+    <Compile Include="MSDS422\Module_04\jump-start-bank-v002-plus-solution.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MSDS422\Module_01\data\mspa-survey-data.csv" />
     <Content Include="MSDS422\Module_01\mspa-survey-data.csv" />
+    <Content Include="MSDS422\Module_03\datasets\boston.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
