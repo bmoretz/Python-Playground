@@ -1,0 +1,323 @@
+
+ Structure of explanatory variable array: (70000, 784)
+
+ Structure of response array: (70000,)
+
+Frequency distribution for 60,000 observations (for model building)
+5.0    5421
+4.0    5842
+8.0    5851
+6.0    5918
+0.0    5923
+9.0    5948
+2.0    5958
+3.0    6131
+7.0    6265
+1.0    6742
+Name: label, dtype: int64
+
+Frequency distribution for last 10,000 observations (holdout sample)
+5.0     892
+6.0     958
+8.0     974
+0.0     980
+4.0     982
+9.0    1008
+3.0    1010
+7.0    1028
+2.0    1032
+1.0    1135
+Name: label, dtype: int64
+
+Shape of model_data: (12665, 785)
+
+Shape of holdout_data: (2115, 785)
+
+Progress with10-fold cross-validation
+
+Fold index: 0 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11398, 784)
+X_test: (1267, 784)
+y_train: (11398,)
+y_test: (1267,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.996465723525
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999994993943
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999989987885
+
+Fold index: 1 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11398, 784)
+X_test: (1267, 784)
+y_train: (11398,)
+y_test: (1267,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.997413061917
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 1.0
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999970064362
+
+Fold index: 2 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11398, 784)
+X_test: (1267, 784)
+y_train: (11398,)
+y_test: (1267,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.99659614396
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999997504504
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999997504504
+
+Fold index: 3 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11398, 784)
+X_test: (1267, 784)
+y_train: (11398,)
+y_test: (1267,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.999952442455
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 1.0
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 1.0
+
+Fold index: 4 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11398, 784)
+X_test: (1267, 784)
+y_train: (11398,)
+y_test: (1267,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.999155561552
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999997501661
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 1.0
+
+Fold index: 5 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11399, 784)
+X_test: (1266, 784)
+y_train: (11399,)
+y_test: (1266,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.999939985747
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 1.0
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 1.0
+
+Fold index: 6 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11399, 784)
+X_test: (1266, 784)
+y_train: (11399,)
+y_test: (1266,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.997280865696
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999889322933
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999891838321
+
+Fold index: 7 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11399, 784)
+X_test: (1266, 784)
+y_train: (11399,)
+y_test: (1266,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.996460980036
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999972272636
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999994958661
+
+Fold index: 8 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11399, 784)
+X_test: (1266, 784)
+y_train: (11399,)
+y_test: (1266,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.995732624611
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999982449102
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999989970916
+
+Fold index: 9 ------------------------------------------
+
+Shape of input data for this fold: 
+Data Set: (Observations, Variables)
+X_train: (11399, 784)
+X_test: (1266, 784)
+y_train: (11399,)
+y_test: (1266,)
+
+Classifier evaluation for: Naive_Bayes
+  Scikit Learn method: BernoulliNB(alpha=1.0, binarize=0.5, class_prior=[0.5, 0.5], fit_prior=False)
+Area under ROC curve: 0.999066791095
+
+Classifier evaluation for: Logistic_Regression
+  Scikit Learn method: LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Area under ROC curve: 0.999967299957
+
+Classifier evaluation for: Linear_SVM_C=0.1
+  Scikit Learn method: Pipeline(steps=(('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('svc', SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=9999, shrinking=True,
+  tol=0.001, verbose=False))))
+Area under ROC curve: 0.999836499787
+
+----------------------------------------------
+Average results from 10-fold cross-validation
+
+Method                 Area under ROC Curve
+Naive_Bayes            0.997806
+Logistic_Regression    0.999980
+Linear_SVM_C=0.1       0.999967
+dtype: float64
+
+----------------------------------------------
+Selected modeling method is LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+Area under ROC for holdout observations: 0.999996403848
