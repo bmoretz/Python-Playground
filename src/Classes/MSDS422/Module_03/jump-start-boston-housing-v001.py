@@ -36,6 +36,8 @@
 # from __future__ import division, print_function
 # from future_builtins import ascii, filter, hex, map, oct, zip
 
+import os
+
 # seed value for random number generators to obtain reproducible results
 RANDOM_SEED = 1
 
@@ -67,7 +69,9 @@ from math import sqrt  # for root mean-squared error calculation
 
 # read data for the Boston Housing Study
 # creating data frame restdata
-boston_input = pd.read_csv('boston.csv')
+boston_input = pd.read_csv( get_data_file('boston.csv') )
+
+boston_input.head()
 
 # check the pandas DataFrame object boston_input
 print('\nboston DataFrame (first and last five rows):')
