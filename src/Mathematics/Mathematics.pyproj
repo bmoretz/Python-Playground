@@ -430,7 +430,6 @@
     <Compile Include="Linear Algebra\ch_02\2.6.py" />
     <Compile Include="Linear Algebra\ch_03\3.1.py" />
     <Compile Include="Linear Algebra\ReducedRow_EF.py" />
-    <Compile Include="MSDS400\Final\increasing_decreasing.py" />
     <Compile Include="MSDS400\Final\q_01.py" />
     <Compile Include="MSDS400\Final\q_02.py" />
     <Compile Include="MSDS400\Final\q_03.py" />
