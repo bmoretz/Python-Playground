@@ -64,7 +64,6 @@
     <Folder Include="MSDS422\Module_06\" />
     <Folder Include="MSDS422\Module_07\" />
     <Folder Include="MSDS422\Module_08\" />
-    <Folder Include="MSDS422\Module_09\" />
     <Folder Include="MSDS422\Practice\" />
     <Folder Include="MSDS422\Practice\data\" />
   </ItemGroup>
@@ -274,11 +273,17 @@
     <Compile Include="MSDS422\Module_02\naive-bayes-training-example-v001.py" />
     <Compile Include="MSDS422\Module_03\jump-start-boston-housing-v001.py" />
     <Compile Include="MSDS422\Module_04\jump-start-bank-v002-plus-solution.py" />
+    <Compile Include="MSDS422\Module_05\exploring-mnist-v001.py" />
+    <Compile Include="MSDS422\Module_05\mnist.py" />
+    <Compile Include="MSDS422\Module_06\06_starter.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MSDS422\Module_01\data\mspa-survey-data.csv" />
     <Content Include="MSDS422\Module_01\mspa-survey-data.csv" />
     <Content Include="MSDS422\Module_03\datasets\boston.csv" />
+    <Content Include="MSDS422\Module_04\bank-marketing-solution-listing.txt" />
+    <Content Include="MSDS422\Module_04\miller_mds_bank_marketing_study.pdf" />
+    <Content Include="MSDS422\Module_05\listing-exploring-mnist-v001.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
