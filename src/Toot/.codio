@@ -1,0 +1,18 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Python": "python",
+        "Command Line": "",
+        "Sync": "bash .guides/helpers/git-samples.sh; exit 0;"
+  },
+
+// Preview button configuration
+  "preview": {
+//      "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+//      "Box URL": "http://{{domain3000}}/",
+        "Server (dynamic)": "https://{{domain3000}}/"
+  }
+}

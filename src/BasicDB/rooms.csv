@@ -1,0 +1,9 @@
+roomid,roomname,capacity
+1001,Lecture Hall A,25
+1002,Lecture Hall B,30
+1003,Lecture Hall C,40
+1501,Seminar Room 1,15
+1502,Seminar Room 2,15
+1503,Seminar Room 3,12
+2001,Chemistry Lab,20
+2002,Biology Lab,10

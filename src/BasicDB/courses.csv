@@ -1,0 +1,13 @@
+courseid,coursename,roomid,times,credits
+1,Introduction to American History,1001,MW10,3
+2,Introduction to European History,1002,MW10,3
+3,Introduction to Asian History,1001,TH10,3
+4,Introduction to African History,1002,TH10,3
+5,Classics of Literature,1001,MW11,3
+6,Contemporary Art,1501,H12,2
+7,Organic Chemistry,1001,MWF1,4
+8,Inorganic Chemistry,1003,MWF2,4
+9,Organic Chemistry Laboratory,2001,W2,1
+10,Inorganic Chemistry Laboratory,2001,W2,1
+11,Biodiversity,1003,TH2,3
+12,Biodiversity Laboratory,2002,H3,1

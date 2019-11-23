@@ -1,0 +1,4 @@
+[{"name":"rooms","filename":"rooms.csv","fields":["roomid","roomname","capacity"]},
+{"name":"students","filename":"students.csv","fields":["lastname","firstname","studentid"]},
+{"name":"courses","filename":"courses.csv","fields":["courseid","coursename","roomid","times","credits"]},
+{"name":"enrollments","filename":"enrollments.csv","fields":["studentid","courseid"]}]
